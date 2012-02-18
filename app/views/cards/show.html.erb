@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @card.name %>
+</p>
+
+<p>
+  <b>Mana:</b>
+  <%= @card.mana %>
+</p>
+
+<p>
+  <b>Card type:</b>
+  <%= @card.card_type %>
+</p>
+
+<p>
+  <b>Color:</b>
+  <%= @card.color %>
+</p>
+
+<p>
+  <b>Power:</b>
+  <%= @card.power %>
+</p>
+
+<p>
+  <b>Health:</b>
+  <%= @card.health %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @card.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>
