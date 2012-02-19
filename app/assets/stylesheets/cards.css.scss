@@ -1,6 +1,9 @@
 // Place all the styles related to the cards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body { background-color: #663; color: red }
+$background_color: #563;
+$text_color: black;
+
+body { background-color: $background_color; color: $text_color }
 td{ text-align: left }
 th{ text-align: left }
