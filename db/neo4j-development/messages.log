@@ -3132,3 +3132,1891 @@
 2012-02-18 19:40:07.689-0500: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
 2012-02-18 19:40:07.716-0500: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
 2012-02-18 19:40:08.909-0500: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-02-26 15:59:57.594-0500: /home/me/workspace/magic/db/neo4j-development/neostore non clean shutdown detected
+2012-02-26 15:59:57.738-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db non clean shutdown detected
+2012-02-26 15:59:57.769-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names non clean shutdown detected
+2012-02-26 15:59:57.865-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db non clean shutdown detected
+2012-02-26 15:59:57.870-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings non clean shutdown detected
+2012-02-26 15:59:57.910-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index non clean shutdown detected
+2012-02-26 15:59:57.915-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys non clean shutdown detected
+2012-02-26 15:59:57.931-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays non clean shutdown detected
+2012-02-26 15:59:57.972-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db non clean shutdown detected
+2012-02-26 15:59:57.993-0500: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db non clean shutdown detected
+2012-02-26 15:59:58.207-0500: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1]. Recovery started ...
+2012-02-26 15:59:58.253-0500: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] logVersion=0 with committed tx=5
+2012-02-26 15:59:58.257-0500: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2012-02-26 15:59:58.259-0500: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-02-26 15:59:58.260-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] sorting 0 xids
+2012-02-26 15:59:58.267-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] checkRecoveryComplete 0 xids
+2012-02-26 15:59:58.382-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2012-02-26 15:59:58.541-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys rebuild id generator, highId=10 defragged count=0
+2012-02-26 15:59:58.623-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index rebuild id generator, highId=10 defragged count=0
+2012-02-26 15:59:58.707-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2012-02-26 15:59:58.883-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2012-02-26 15:59:59.228-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db rebuild id generator, highId=6 defragged count=0
+2012-02-26 15:59:59.414-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db rebuild id generator, highId=2 defragged count=0
+2012-02-26 15:59:59.631-0500: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db rebuild id generator, highId=3 defragged count=0
+2012-02-26 15:59:59.711-0500: /home/me/workspace/magic/db/neo4j-development/neostore rebuild id generator, highId=6 defragged count=0
+2012-02-26 15:59:59.765-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] recovery completed.
+2012-02-26 15:59:59.765-0500: Recovery on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] completed.
+2012-02-26 16:00:00.200-0500: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1]. Recovery started ...
+2012-02-26 16:00:00.201-0500: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] logVersion=0 with committed tx=1
+2012-02-26 16:00:00.202-0500: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] entries found=0 lastEntryPos=16
+2012-02-26 16:00:00.203-0500: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-02-26 16:00:00.203-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] sorting 0 xids
+2012-02-26 16:00:00.203-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] checkRecoveryComplete 0 xids
+2012-02-26 16:00:00.203-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] recovery completed.
+2012-02-26 16:00:00.204-0500: Recovery on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] completed.
+2012-02-26 16:00:00.215-0500: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-02-26 16:00:00.401-0500: --- CONFIGURATION START ---
+2012-02-26 16:00:00.407-0500: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-02-26 16:00:00.407-0500: Physical mem: 2004MB, Heap size: 444MB
+2012-02-26 16:00:00.420-0500: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-02-26 16:00:00.420-0500: Neo4j component versions:
+2012-02-26 16:00:00.422-0500:   Neo4j - Graph Database Kernel 1.6.M01
+2012-02-26 16:00:00.422-0500: Store versions:
+2012-02-26 16:00:00.422-0500:   NeoStore v0.A.0
+2012-02-26 16:00:00.422-0500:   NodeStore v0.A.0
+2012-02-26 16:00:00.423-0500:   RelationshipStore v0.A.0
+2012-02-26 16:00:00.423-0500:   RelationshipTypeStore v0.A.0
+2012-02-26 16:00:00.423-0500:   PropertyStore v0.A.0
+2012-02-26 16:00:00.423-0500:   PropertyIndexStore v0.A.0
+2012-02-26 16:00:00.423-0500:   StringPropertyStore v0.A.0
+2012-02-26 16:00:00.423-0500:   ArrayPropertyStore v0.A.0
+2012-02-26 16:00:00.451-0500: Process id: 8778@me-laptop
+2012-02-26 16:00:00.452-0500: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-02-26 16:00:00.453-0500: Max number of file descriptors: 4096
+2012-02-26 16:00:00.454-0500: Number of open file descriptors: 74
+2012-02-26 16:00:00.487-0500: Total Physical memory: 1.96 GB
+2012-02-26 16:00:00.488-0500: Free Physical memory: 135.80 MB
+2012-02-26 16:00:00.489-0500: Committed virtual memory: 746.74 MB
+2012-02-26 16:00:00.490-0500: Total swap space: 1.99 GB
+2012-02-26 16:00:00.491-0500: Free swap space: 1.99 GB
+2012-02-26 16:00:00.500-0500: Byte order: LITTLE_ENDIAN
+2012-02-26 16:00:00.500-0500: VM Name: Java HotSpot(TM) Server VM
+2012-02-26 16:00:00.500-0500: VM Vendor: Sun Microsystems Inc.
+2012-02-26 16:00:00.500-0500: VM Version: 20.1-b02
+2012-02-26 16:00:00.518-0500: JIT compiler: HotSpot Tiered Compilers
+2012-02-26 16:00:00.524-0500: Class Path:
+2012-02-26 16:00:00.525-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-02-26 16:00:00.525-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-02-26 16:00:00.525-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-02-26 16:00:00.525-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-02-26 16:00:00.525-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-02-26 16:00:00.525-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-02-26 16:00:00.526-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-02-26 16:00:00.526-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-02-26 16:00:00.526-0500:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-02-26 16:00:00.526-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-02-26 16:00:00.526-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-02-26 16:00:00.526-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-02-26 16:00:00.526-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-02-26 16:00:00.526-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-02-26 16:00:00.527-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-02-26 16:00:00.527-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-02-26 16:00:00.527-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-02-26 16:00:00.527-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-02-26 16:00:00.527-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-02-26 16:00:00.527-0500:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-02-26 16:00:00.527-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-02-26 16:00:00.527-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-02-26 16:00:00.528-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-02-26 16:00:00.528-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-02-26 16:00:00.528-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-02-26 16:00:00.528-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-02-26 16:00:00.528-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-02-26 16:00:00.528-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-02-26 16:00:00.528-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-02-26 16:00:00.529-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-02-26 16:00:00.529-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-02-26 16:00:00.529-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-02-26 16:00:00.529-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-02-26 16:00:00.529-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-02-26 16:00:00.529-0500: Library Path:
+2012-02-26 16:00:00.530-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-02-26 16:00:00.530-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-02-26 16:00:00.530-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-02-26 16:00:00.531-0500:   /usr/java/packages/lib/i386
+2012-02-26 16:00:00.531-0500:   /lib
+2012-02-26 16:00:00.531-0500:   /usr/lib
+2012-02-26 16:00:00.555-0500: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-02-26 16:00:00.556-0500: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-02-26 16:00:00.559-0500: Memory Pool: Code Cache (Non-heap memory): committed=2.75 MB, used=2.70 MB, max=48.00 MB, threshold=0.00 B
+2012-02-26 16:00:00.560-0500: Memory Pool: PS Eden Space (Heap memory): committed=144.44 MB, used=11.56 MB, max=146.25 MB, threshold=?
+2012-02-26 16:00:00.561-0500: Memory Pool: PS Survivor Space (Heap memory): committed=9.25 MB, used=9.24 MB, max=9.25 MB, threshold=?
+2012-02-26 16:00:00.563-0500: Memory Pool: PS Old Gen (Heap memory): committed=38.63 MB, used=22.39 MB, max=333.38 MB, threshold=0.00 B
+2012-02-26 16:00:00.564-0500: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.88 MB, used=26.23 MB, max=64.00 MB, threshold=0.00 B
+2012-02-26 16:00:00.565-0500: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-02-26 16:00:00.566-0500: System properties:
+2012-02-26 16:00:00.567-0500:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-02-26 16:00:00.567-0500:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-02-26 16:00:00.567-0500:   path.separator = :
+2012-02-26 16:00:00.567-0500:   file.encoding.pkg = sun.io
+2012-02-26 16:00:00.567-0500:   sun.java.launcher = SUN_STANDARD
+2012-02-26 16:00:00.567-0500:   user.country = US
+2012-02-26 16:00:00.567-0500:   sun.os.patch.level = unknown
+2012-02-26 16:00:00.568-0500:   user.dir = /home/me/workspace/magic
+2012-02-26 16:00:00.568-0500:   jdk.home = 
+2012-02-26 16:00:00.568-0500:   sun.jnu.encoding = UTF-8
+2012-02-26 16:00:00.568-0500:   jruby.memory.max = 500m
+2012-02-26 16:00:00.568-0500:   sun.management.compiler = HotSpot Tiered Compilers
+2012-02-26 16:00:00.568-0500:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-02-26 16:00:00.569-0500:   user.home = /home/me
+2012-02-26 16:00:00.569-0500:   user.timezone = America/New_York
+2012-02-26 16:00:00.569-0500:   file.encoding = UTF-8
+2012-02-26 16:00:00.569-0500:   jruby.stack.max = 2048k
+2012-02-26 16:00:00.569-0500:   jruby.script = jruby
+2012-02-26 16:00:00.570-0500:   user.name = me
+2012-02-26 16:00:00.570-0500:   jruby.shell = /bin/sh
+2012-02-26 16:00:00.570-0500:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-02-26 16:00:00.570-0500:   sun.arch.data.model = 32
+2012-02-26 16:00:00.570-0500:   user.language = en
+2012-02-26 16:00:00.570-0500:   file.separator = /
+2012-02-26 16:00:00.570-0500:   sun.io.unicode.encoding = UnicodeLittle
+2012-02-26 16:00:00.571-0500:   sun.cpu.endian = little
+2012-02-26 16:00:00.571-0500:   sun.desktop = gnome
+2012-02-26 16:00:00.571-0500:   sun.cpu.isalist = 
+2012-02-26 16:00:00.571-0500: Neo4j Kernel properties:
+2012-02-26 16:00:00.571-0500:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-02-26 16:00:00.571-0500:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-02-26 16:00:00.572-0500:   online_backup_enabled=NO
+2012-02-26 16:00:00.572-0500:   ha.machine_id=2
+2012-02-26 16:00:00.572-0500:   enable_rules=YES
+2012-02-26 16:00:00.572-0500:   min_node_cache_size=0
+2012-02-26 16:00:00.572-0500:   neostore.relationshipstore.db.mapped_memory=50M
+2012-02-26 16:00:00.572-0500:   node_auto_indexing=false
+2012-02-26 16:00:00.572-0500:   neostore.nodestore.db.mapped_memory=25M
+2012-02-26 16:00:00.573-0500:   min_relationship_cache_size=0
+2012-02-26 16:00:00.573-0500:   ha.db=NO
+2012-02-26 16:00:00.573-0500:   max_relationship_cache_size=3500
+2012-02-26 16:00:00.573-0500:   use_adaptive_cache=YES
+2012-02-26 16:00:00.573-0500:   adaptive_cache_heap_ratio=0.77
+2012-02-26 16:00:00.573-0500:   identity_map=NO
+2012-02-26 16:00:00.573-0500:   adaptive_cache_manager_decrease_ratio=1.15
+2012-02-26 16:00:00.574-0500:   timestamps=YES
+2012-02-26 16:00:00.574-0500:   use_memory_mapped_buffers=true
+2012-02-26 16:00:00.574-0500:   rebuild_idgenerators_fast=true
+2012-02-26 16:00:00.574-0500:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-02-26 16:00:00.574-0500:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-02-26 16:00:00.574-0500:   max_node_cache_size=1500
+2012-02-26 16:00:00.574-0500:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-02-26 16:00:00.574-0500:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-02-26 16:00:00.575-0500:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-02-26 16:00:00.575-0500:   adaptive_cache_worker_sleep_time=3000
+2012-02-26 16:00:00.575-0500:   neostore.propertystore.db.index.mapped_memory=1M
+2012-02-26 16:00:00.575-0500:   create=true
+2012-02-26 16:00:00.575-0500:   adaptive_cache_manager_increase_ratio=1.1
+2012-02-26 16:00:00.575-0500:   enable_remote_shell=port=9332
+2012-02-26 16:00:00.575-0500:   neostore.propertystore.db.mapped_memory=90M
+2012-02-26 16:00:00.576-0500:   relationship_auto_indexing=false
+2012-02-26 16:00:00.576-0500:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-02-26 16:00:00.576-0500:   ha.server=localhost:6002
+2012-02-26 16:00:00.576-0500:   migration_thread=NO
+2012-02-26 16:00:00.576-0500: Storage files:
+2012-02-26 16:00:00.577-0500:   neostore.id: 9.00 B
+2012-02-26 16:00:00.578-0500:   messages.log: 242.39 kB
+2012-02-26 16:00:00.578-0500:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-02-26 16:00:00.578-0500:   neostore: 54.00 B
+2012-02-26 16:00:00.579-0500:   neostore.relationshipstore.db.id: 9.00 B
+2012-02-26 16:00:00.579-0500:   nioneo_logical.log.1: 16.00 B
+2012-02-26 16:00:00.579-0500:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-02-26 16:00:00.580-0500:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-02-26 16:00:00.580-0500:   lock: 0.00 B
+2012-02-26 16:00:00.580-0500:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-02-26 16:00:00.581-0500:   neostore.relationshipstore.db: 51.18 kB
+2012-02-26 16:00:00.581-0500:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-02-26 16:00:00.581-0500:   neostore.propertystore.db.strings: 128.00 B
+2012-02-26 16:00:00.581-0500:   neostore.propertystore.db.index: 1.02 kB
+2012-02-26 16:00:00.582-0500:   neostore.relationshiptypestore.db: 10.00 B
+2012-02-26 16:00:00.582-0500:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-02-26 16:00:00.582-0500:   nioneo_logical.log.active: 4.00 B
+2012-02-26 16:00:00.583-0500:   neostore.nodestore.db: 25.59 kB
+2012-02-26 16:00:00.583-0500:   neostore.propertystore.db.id: 9.00 B
+2012-02-26 16:00:00.583-0500:   neostore.propertystore.db.arrays: 128.00 B
+2012-02-26 16:00:00.583-0500:   neostore.propertystore.db.index.id: 9.00 B
+2012-02-26 16:00:00.584-0500:   neostore.propertystore.db.strings.id: 9.00 B
+2012-02-26 16:00:00.584-0500:   neostore.nodestore.db.id: 9.00 B
+2012-02-26 16:00:00.584-0500:   neostore.propertystore.db: 92.13 kB
+2012-02-26 16:00:00.585-0500:   tm_tx_log.1: 0.00 B
+2012-02-26 16:00:00.585-0500:   active_tx_log: 11.00 B
+2012-02-26 16:00:00.585-0500:   index:
+2012-02-26 16:00:00.586-0500:     lucene-store.db: 32.00 B
+2012-02-26 16:00:00.586-0500:     lucene.log.active: 4.00 B
+2012-02-26 16:00:00.586-0500:     lucene.log.1: 16.00 B
+2012-02-26 16:00:00.587-0500:   - Total: 52.00 B
+2012-02-26 16:00:00.587-0500: Id usage:
+2012-02-26 16:00:00.587-0500:   NodeStore: used=3 high=2
+2012-02-26 16:00:00.587-0500:   RelationshipStore: used=2 high=1
+2012-02-26 16:00:00.588-0500:   RelationshipTypeStore: used=2 high=1
+2012-02-26 16:00:00.588-0500:   PropertyStore: used=6 high=5
+2012-02-26 16:00:00.588-0500:   PropertyIndexStore: used=10 high=9
+2012-02-26 16:00:00.588-0500:   StringPropertyStore: used=1 high=0
+2012-02-26 16:00:00.589-0500:   ArrayPropertyStore: used=1 high=0
+2012-02-26 16:00:00.602-0500: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-02-26 16:00:00.603-0500: --- CONFIGURATION END ---
+2012-02-26 16:00:01.281-0500: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-02-26 16:00:01.299-0500: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-02-26 16:00:02.468-0500: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-02-26 17:47:12.556-0500: Closed log /home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-02-26 17:47:13.099-0500: NeoStore closed
+2012-02-26 17:47:13.131-0500: Closed log /home/me/workspace/magic/db/neo4j-development/index/lucene.log
+2012-02-26 17:47:13.140-0500: NeoStore closed
+2012-02-26 17:47:13.141-0500: TM shutting down
+2012-02-26 17:49:01.715-0500: Opened [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] clean empty log, version=0, lastTxId=5
+2012-02-26 17:49:02.119-0500: Opened [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-02-26 17:49:02.153-0500: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-02-26 17:49:02.330-0500: --- CONFIGURATION START ---
+2012-02-26 17:49:02.335-0500: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-02-26 17:49:02.336-0500: Physical mem: 2004MB, Heap size: 444MB
+2012-02-26 17:49:02.350-0500: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-02-26 17:49:02.350-0500: Neo4j component versions:
+2012-02-26 17:49:02.352-0500:   Neo4j - Graph Database Kernel 1.6.M01
+2012-02-26 17:49:02.353-0500: Store versions:
+2012-02-26 17:49:02.353-0500:   NeoStore v0.A.0
+2012-02-26 17:49:02.353-0500:   NodeStore v0.A.0
+2012-02-26 17:49:02.354-0500:   RelationshipStore v0.A.0
+2012-02-26 17:49:02.354-0500:   RelationshipTypeStore v0.A.0
+2012-02-26 17:49:02.354-0500:   PropertyStore v0.A.0
+2012-02-26 17:49:02.354-0500:   PropertyIndexStore v0.A.0
+2012-02-26 17:49:02.354-0500:   StringPropertyStore v0.A.0
+2012-02-26 17:49:02.355-0500:   ArrayPropertyStore v0.A.0
+2012-02-26 17:49:02.357-0500: Process id: 9655@me-laptop
+2012-02-26 17:49:02.359-0500: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-02-26 17:49:02.360-0500: Max number of file descriptors: 4096
+2012-02-26 17:49:02.361-0500: Number of open file descriptors: 69
+2012-02-26 17:49:02.386-0500: Total Physical memory: 1.96 GB
+2012-02-26 17:49:02.387-0500: Free Physical memory: 1.01 GB
+2012-02-26 17:49:02.388-0500: Committed virtual memory: 714.60 MB
+2012-02-26 17:49:02.389-0500: Total swap space: 1.99 GB
+2012-02-26 17:49:02.390-0500: Free swap space: 1.44 GB
+2012-02-26 17:49:02.399-0500: Byte order: LITTLE_ENDIAN
+2012-02-26 17:49:02.400-0500: VM Name: Java HotSpot(TM) Server VM
+2012-02-26 17:49:02.400-0500: VM Vendor: Sun Microsystems Inc.
+2012-02-26 17:49:02.400-0500: VM Version: 20.1-b02
+2012-02-26 17:49:02.408-0500: JIT compiler: HotSpot Tiered Compilers
+2012-02-26 17:49:02.414-0500: Class Path:
+2012-02-26 17:49:02.414-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-02-26 17:49:02.415-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-02-26 17:49:02.415-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-02-26 17:49:02.415-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-02-26 17:49:02.415-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-02-26 17:49:02.415-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-02-26 17:49:02.415-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-02-26 17:49:02.415-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-02-26 17:49:02.415-0500:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-02-26 17:49:02.416-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-02-26 17:49:02.416-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-02-26 17:49:02.416-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-02-26 17:49:02.416-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-02-26 17:49:02.416-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-02-26 17:49:02.416-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-02-26 17:49:02.417-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-02-26 17:49:02.417-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-02-26 17:49:02.417-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-02-26 17:49:02.417-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-02-26 17:49:02.417-0500:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-02-26 17:49:02.417-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-02-26 17:49:02.417-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-02-26 17:49:02.417-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-02-26 17:49:02.418-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-02-26 17:49:02.418-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-02-26 17:49:02.418-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-02-26 17:49:02.418-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-02-26 17:49:02.418-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-02-26 17:49:02.418-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-02-26 17:49:02.418-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-02-26 17:49:02.419-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-02-26 17:49:02.419-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-02-26 17:49:02.419-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-02-26 17:49:02.419-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-02-26 17:49:02.419-0500: Library Path:
+2012-02-26 17:49:02.420-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-02-26 17:49:02.420-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-02-26 17:49:02.420-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-02-26 17:49:02.420-0500:   /usr/java/packages/lib/i386
+2012-02-26 17:49:02.421-0500:   /lib
+2012-02-26 17:49:02.421-0500:   /usr/lib
+2012-02-26 17:49:02.448-0500: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-02-26 17:49:02.449-0500: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-02-26 17:49:02.453-0500: Memory Pool: Code Cache (Non-heap memory): committed=2.84 MB, used=2.80 MB, max=48.00 MB, threshold=0.00 B
+2012-02-26 17:49:02.453-0500: Memory Pool: PS Eden Space (Heap memory): committed=95.81 MB, used=52.19 MB, max=153.19 MB, threshold=?
+2012-02-26 17:49:02.454-0500: Memory Pool: PS Survivor Space (Heap memory): committed=5.13 MB, used=5.12 MB, max=5.13 MB, threshold=?
+2012-02-26 17:49:02.455-0500: Memory Pool: PS Old Gen (Heap memory): committed=36.94 MB, used=25.04 MB, max=333.38 MB, threshold=0.00 B
+2012-02-26 17:49:02.455-0500: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.50 MB, used=26.26 MB, max=64.00 MB, threshold=0.00 B
+2012-02-26 17:49:02.456-0500: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-02-26 17:49:02.456-0500: System properties:
+2012-02-26 17:49:02.457-0500:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-02-26 17:49:02.457-0500:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-02-26 17:49:02.457-0500:   path.separator = :
+2012-02-26 17:49:02.457-0500:   file.encoding.pkg = sun.io
+2012-02-26 17:49:02.458-0500:   sun.java.launcher = SUN_STANDARD
+2012-02-26 17:49:02.458-0500:   user.country = US
+2012-02-26 17:49:02.458-0500:   sun.os.patch.level = unknown
+2012-02-26 17:49:02.458-0500:   user.dir = /home/me/workspace/magic
+2012-02-26 17:49:02.458-0500:   jdk.home = 
+2012-02-26 17:49:02.458-0500:   sun.jnu.encoding = UTF-8
+2012-02-26 17:49:02.458-0500:   jruby.memory.max = 500m
+2012-02-26 17:49:02.459-0500:   sun.management.compiler = HotSpot Tiered Compilers
+2012-02-26 17:49:02.459-0500:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-02-26 17:49:02.459-0500:   user.home = /home/me
+2012-02-26 17:49:02.459-0500:   user.timezone = America/New_York
+2012-02-26 17:49:02.460-0500:   file.encoding = UTF-8
+2012-02-26 17:49:02.460-0500:   jruby.stack.max = 2048k
+2012-02-26 17:49:02.460-0500:   jruby.script = jruby
+2012-02-26 17:49:02.460-0500:   user.name = me
+2012-02-26 17:49:02.460-0500:   jruby.shell = /bin/sh
+2012-02-26 17:49:02.460-0500:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-02-26 17:49:02.460-0500:   sun.arch.data.model = 32
+2012-02-26 17:49:02.461-0500:   user.language = en
+2012-02-26 17:49:02.461-0500:   file.separator = /
+2012-02-26 17:49:02.461-0500:   sun.io.unicode.encoding = UnicodeLittle
+2012-02-26 17:49:02.461-0500:   sun.cpu.endian = little
+2012-02-26 17:49:02.461-0500:   sun.desktop = gnome
+2012-02-26 17:49:02.461-0500:   sun.cpu.isalist = 
+2012-02-26 17:49:02.461-0500: Neo4j Kernel properties:
+2012-02-26 17:49:02.462-0500:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-02-26 17:49:02.462-0500:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-02-26 17:49:02.462-0500:   online_backup_enabled=NO
+2012-02-26 17:49:02.462-0500:   ha.machine_id=2
+2012-02-26 17:49:02.462-0500:   enable_rules=YES
+2012-02-26 17:49:02.463-0500:   min_node_cache_size=0
+2012-02-26 17:49:02.463-0500:   neostore.relationshipstore.db.mapped_memory=50M
+2012-02-26 17:49:02.463-0500:   node_auto_indexing=false
+2012-02-26 17:49:02.463-0500:   neostore.nodestore.db.mapped_memory=25M
+2012-02-26 17:49:02.463-0500:   min_relationship_cache_size=0
+2012-02-26 17:49:02.463-0500:   ha.db=NO
+2012-02-26 17:49:02.463-0500:   max_relationship_cache_size=3500
+2012-02-26 17:49:02.464-0500:   use_adaptive_cache=YES
+2012-02-26 17:49:02.464-0500:   adaptive_cache_heap_ratio=0.77
+2012-02-26 17:49:02.464-0500:   identity_map=NO
+2012-02-26 17:49:02.464-0500:   adaptive_cache_manager_decrease_ratio=1.15
+2012-02-26 17:49:02.464-0500:   timestamps=YES
+2012-02-26 17:49:02.464-0500:   use_memory_mapped_buffers=true
+2012-02-26 17:49:02.464-0500:   rebuild_idgenerators_fast=true
+2012-02-26 17:49:02.465-0500:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-02-26 17:49:02.465-0500:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-02-26 17:49:02.465-0500:   max_node_cache_size=1500
+2012-02-26 17:49:02.465-0500:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-02-26 17:49:02.465-0500:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-02-26 17:49:02.465-0500:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-02-26 17:49:02.465-0500:   adaptive_cache_worker_sleep_time=3000
+2012-02-26 17:49:02.466-0500:   neostore.propertystore.db.index.mapped_memory=1M
+2012-02-26 17:49:02.466-0500:   create=true
+2012-02-26 17:49:02.466-0500:   adaptive_cache_manager_increase_ratio=1.1
+2012-02-26 17:49:02.466-0500:   enable_remote_shell=port=9332
+2012-02-26 17:49:02.466-0500:   neostore.propertystore.db.mapped_memory=90M
+2012-02-26 17:49:02.466-0500:   relationship_auto_indexing=false
+2012-02-26 17:49:02.466-0500:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-02-26 17:49:02.467-0500:   ha.server=localhost:6002
+2012-02-26 17:49:02.467-0500:   migration_thread=NO
+2012-02-26 17:49:02.467-0500: Storage files:
+2012-02-26 17:49:02.468-0500:   neostore.id: 9.00 B
+2012-02-26 17:49:02.469-0500:   messages.log: 258.48 kB
+2012-02-26 17:49:02.469-0500:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-02-26 17:49:02.469-0500:   neostore: 54.00 B
+2012-02-26 17:49:02.470-0500:   neostore.relationshipstore.db.id: 9.00 B
+2012-02-26 17:49:02.470-0500:   nioneo_logical.log.1: 16.00 B
+2012-02-26 17:49:02.470-0500:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-02-26 17:49:02.471-0500:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-02-26 17:49:02.471-0500:   lock: 0.00 B
+2012-02-26 17:49:02.471-0500:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-02-26 17:49:02.471-0500:   neostore.relationshipstore.db: 66.00 B
+2012-02-26 17:49:02.472-0500:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-02-26 17:49:02.472-0500:   neostore.propertystore.db.strings: 128.00 B
+2012-02-26 17:49:02.472-0500:   neostore.propertystore.db.index: 1.02 kB
+2012-02-26 17:49:02.473-0500:   neostore.relationshiptypestore.db: 10.00 B
+2012-02-26 17:49:02.473-0500:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-02-26 17:49:02.473-0500:   nioneo_logical.log.active: 4.00 B
+2012-02-26 17:49:02.473-0500:   neostore.nodestore.db: 27.00 B
+2012-02-26 17:49:02.474-0500:   neostore.propertystore.db.id: 9.00 B
+2012-02-26 17:49:02.474-0500:   neostore.propertystore.db.arrays: 128.00 B
+2012-02-26 17:49:02.474-0500:   neostore.propertystore.db.index.id: 9.00 B
+2012-02-26 17:49:02.474-0500:   neostore.propertystore.db.strings.id: 9.00 B
+2012-02-26 17:49:02.475-0500:   neostore.nodestore.db.id: 9.00 B
+2012-02-26 17:49:02.475-0500:   neostore.propertystore.db: 246.00 B
+2012-02-26 17:49:02.476-0500:   tm_tx_log.1: 0.00 B
+2012-02-26 17:49:02.477-0500:   active_tx_log: 11.00 B
+2012-02-26 17:49:02.477-0500:   index:
+2012-02-26 17:49:02.478-0500:     lucene-store.db: 32.00 B
+2012-02-26 17:49:02.478-0500:     lucene.log.active: 4.00 B
+2012-02-26 17:49:02.479-0500:     lucene.log.1: 16.00 B
+2012-02-26 17:49:02.479-0500:   - Total: 52.00 B
+2012-02-26 17:49:02.480-0500: Id usage:
+2012-02-26 17:49:02.481-0500:   NodeStore: used=3 high=2
+2012-02-26 17:49:02.481-0500:   RelationshipStore: used=2 high=1
+2012-02-26 17:49:02.482-0500:   RelationshipTypeStore: used=2 high=1
+2012-02-26 17:49:02.482-0500:   PropertyStore: used=6 high=5
+2012-02-26 17:49:02.482-0500:   PropertyIndexStore: used=10 high=9
+2012-02-26 17:49:02.483-0500:   StringPropertyStore: used=1 high=0
+2012-02-26 17:49:02.483-0500:   ArrayPropertyStore: used=1 high=0
+2012-02-26 17:49:02.503-0500: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-02-26 17:49:02.503-0500: --- CONFIGURATION END ---
+2012-02-26 17:49:03.282-0500: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-02-26 17:49:03.296-0500: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-02-26 17:49:04.258-0500: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-02-28 08:49:10.456-0500: /home/me/workspace/magic/db/neo4j-development/neostore non clean shutdown detected
+2012-02-28 08:49:10.596-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db non clean shutdown detected
+2012-02-28 08:49:10.640-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names non clean shutdown detected
+2012-02-28 08:49:10.735-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db non clean shutdown detected
+2012-02-28 08:49:10.753-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings non clean shutdown detected
+2012-02-28 08:49:10.783-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index non clean shutdown detected
+2012-02-28 08:49:10.818-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys non clean shutdown detected
+2012-02-28 08:49:10.831-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays non clean shutdown detected
+2012-02-28 08:49:10.850-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db non clean shutdown detected
+2012-02-28 08:49:10.866-0500: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db non clean shutdown detected
+2012-02-28 08:49:11.051-0500: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1]. Recovery started ...
+2012-02-28 08:49:11.108-0500: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] logVersion=0 with committed tx=5
+2012-02-28 08:49:11.110-0500: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2012-02-28 08:49:11.112-0500: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-02-28 08:49:11.113-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] sorting 0 xids
+2012-02-28 08:49:11.119-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] checkRecoveryComplete 0 xids
+2012-02-28 08:49:11.221-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2012-02-28 08:49:11.382-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys rebuild id generator, highId=10 defragged count=0
+2012-02-28 08:49:11.456-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index rebuild id generator, highId=10 defragged count=0
+2012-02-28 08:49:11.547-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2012-02-28 08:49:11.625-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2012-02-28 08:49:11.920-0500: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db rebuild id generator, highId=6 defragged count=0
+2012-02-28 08:49:12.086-0500: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db rebuild id generator, highId=2 defragged count=0
+2012-02-28 08:49:12.314-0500: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db rebuild id generator, highId=3 defragged count=0
+2012-02-28 08:49:12.420-0500: /home/me/workspace/magic/db/neo4j-development/neostore rebuild id generator, highId=6 defragged count=0
+2012-02-28 08:49:12.468-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] recovery completed.
+2012-02-28 08:49:12.468-0500: Recovery on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] completed.
+2012-02-28 08:49:12.979-0500: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1]. Recovery started ...
+2012-02-28 08:49:12.989-0500: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] logVersion=0 with committed tx=1
+2012-02-28 08:49:12.991-0500: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] entries found=0 lastEntryPos=16
+2012-02-28 08:49:12.993-0500: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-02-28 08:49:12.993-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] sorting 0 xids
+2012-02-28 08:49:12.994-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] checkRecoveryComplete 0 xids
+2012-02-28 08:49:12.994-0500: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] recovery completed.
+2012-02-28 08:49:12.994-0500: Recovery on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] completed.
+2012-02-28 08:49:13.009-0500: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-02-28 08:49:13.193-0500: --- CONFIGURATION START ---
+2012-02-28 08:49:13.199-0500: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-02-28 08:49:13.199-0500: Physical mem: 2004MB, Heap size: 444MB
+2012-02-28 08:49:13.211-0500: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-02-28 08:49:13.211-0500: Neo4j component versions:
+2012-02-28 08:49:13.213-0500:   Neo4j - Graph Database Kernel 1.6.M01
+2012-02-28 08:49:13.213-0500: Store versions:
+2012-02-28 08:49:13.213-0500:   NeoStore v0.A.0
+2012-02-28 08:49:13.214-0500:   NodeStore v0.A.0
+2012-02-28 08:49:13.214-0500:   RelationshipStore v0.A.0
+2012-02-28 08:49:13.214-0500:   RelationshipTypeStore v0.A.0
+2012-02-28 08:49:13.214-0500:   PropertyStore v0.A.0
+2012-02-28 08:49:13.214-0500:   PropertyIndexStore v0.A.0
+2012-02-28 08:49:13.214-0500:   StringPropertyStore v0.A.0
+2012-02-28 08:49:13.215-0500:   ArrayPropertyStore v0.A.0
+2012-02-28 08:49:13.217-0500: Process id: 2841@me-laptop
+2012-02-28 08:49:13.218-0500: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-02-28 08:49:13.219-0500: Max number of file descriptors: 4096
+2012-02-28 08:49:13.220-0500: Number of open file descriptors: 74
+2012-02-28 08:49:13.235-0500: Total Physical memory: 1.96 GB
+2012-02-28 08:49:13.235-0500: Free Physical memory: 119.81 MB
+2012-02-28 08:49:13.237-0500: Committed virtual memory: 740.96 MB
+2012-02-28 08:49:13.237-0500: Total swap space: 1.99 GB
+2012-02-28 08:49:13.238-0500: Free swap space: 1.99 GB
+2012-02-28 08:49:13.247-0500: Byte order: LITTLE_ENDIAN
+2012-02-28 08:49:13.248-0500: VM Name: Java HotSpot(TM) Server VM
+2012-02-28 08:49:13.248-0500: VM Vendor: Sun Microsystems Inc.
+2012-02-28 08:49:13.248-0500: VM Version: 20.1-b02
+2012-02-28 08:49:13.263-0500: JIT compiler: HotSpot Tiered Compilers
+2012-02-28 08:49:13.272-0500: Class Path:
+2012-02-28 08:49:13.272-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-02-28 08:49:13.272-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-02-28 08:49:13.272-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-02-28 08:49:13.273-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-02-28 08:49:13.273-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-02-28 08:49:13.273-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-02-28 08:49:13.273-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-02-28 08:49:13.273-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-02-28 08:49:13.274-0500:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-02-28 08:49:13.274-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-02-28 08:49:13.274-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-02-28 08:49:13.274-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-02-28 08:49:13.274-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-02-28 08:49:13.275-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-02-28 08:49:13.275-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-02-28 08:49:13.275-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-02-28 08:49:13.275-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-02-28 08:49:13.275-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-02-28 08:49:13.276-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-02-28 08:49:13.276-0500:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-02-28 08:49:13.276-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-02-28 08:49:13.276-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-02-28 08:49:13.276-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-02-28 08:49:13.277-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-02-28 08:49:13.277-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-02-28 08:49:13.277-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-02-28 08:49:13.277-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-02-28 08:49:13.277-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-02-28 08:49:13.277-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-02-28 08:49:13.278-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-02-28 08:49:13.278-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-02-28 08:49:13.278-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-02-28 08:49:13.278-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-02-28 08:49:13.278-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-02-28 08:49:13.279-0500: Library Path:
+2012-02-28 08:49:13.279-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-02-28 08:49:13.280-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-02-28 08:49:13.280-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-02-28 08:49:13.281-0500:   /usr/java/packages/lib/i386
+2012-02-28 08:49:13.281-0500:   /lib
+2012-02-28 08:49:13.281-0500:   /usr/lib
+2012-02-28 08:49:13.300-0500: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-02-28 08:49:13.301-0500: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-02-28 08:49:13.303-0500: Memory Pool: Code Cache (Non-heap memory): committed=2.81 MB, used=2.75 MB, max=48.00 MB, threshold=0.00 B
+2012-02-28 08:49:13.304-0500: Memory Pool: PS Eden Space (Heap memory): committed=145.00 MB, used=8.71 MB, max=148.50 MB, threshold=?
+2012-02-28 08:49:13.304-0500: Memory Pool: PS Survivor Space (Heap memory): committed=9.06 MB, used=5.39 MB, max=9.06 MB, threshold=?
+2012-02-28 08:49:13.305-0500: Memory Pool: PS Old Gen (Heap memory): committed=38.13 MB, used=26.28 MB, max=333.38 MB, threshold=0.00 B
+2012-02-28 08:49:13.305-0500: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.88 MB, used=26.21 MB, max=64.00 MB, threshold=0.00 B
+2012-02-28 08:49:13.306-0500: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-02-28 08:49:13.306-0500: System properties:
+2012-02-28 08:49:13.307-0500:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-02-28 08:49:13.307-0500:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-02-28 08:49:13.307-0500:   path.separator = :
+2012-02-28 08:49:13.308-0500:   file.encoding.pkg = sun.io
+2012-02-28 08:49:13.308-0500:   sun.java.launcher = SUN_STANDARD
+2012-02-28 08:49:13.308-0500:   user.country = US
+2012-02-28 08:49:13.308-0500:   sun.os.patch.level = unknown
+2012-02-28 08:49:13.308-0500:   user.dir = /home/me/workspace/magic
+2012-02-28 08:49:13.308-0500:   jdk.home = 
+2012-02-28 08:49:13.309-0500:   sun.jnu.encoding = UTF-8
+2012-02-28 08:49:13.309-0500:   jruby.memory.max = 500m
+2012-02-28 08:49:13.309-0500:   sun.management.compiler = HotSpot Tiered Compilers
+2012-02-28 08:49:13.309-0500:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-02-28 08:49:13.309-0500:   user.home = /home/me
+2012-02-28 08:49:13.310-0500:   user.timezone = America/New_York
+2012-02-28 08:49:13.310-0500:   file.encoding = UTF-8
+2012-02-28 08:49:13.310-0500:   jruby.stack.max = 2048k
+2012-02-28 08:49:13.310-0500:   jruby.script = jruby
+2012-02-28 08:49:13.310-0500:   user.name = me
+2012-02-28 08:49:13.310-0500:   jruby.shell = /bin/sh
+2012-02-28 08:49:13.310-0500:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-02-28 08:49:13.311-0500:   sun.arch.data.model = 32
+2012-02-28 08:49:13.311-0500:   user.language = en
+2012-02-28 08:49:13.311-0500:   file.separator = /
+2012-02-28 08:49:13.311-0500:   sun.io.unicode.encoding = UnicodeLittle
+2012-02-28 08:49:13.311-0500:   sun.cpu.endian = little
+2012-02-28 08:49:13.311-0500:   sun.desktop = gnome
+2012-02-28 08:49:13.311-0500:   sun.cpu.isalist = 
+2012-02-28 08:49:13.312-0500: Neo4j Kernel properties:
+2012-02-28 08:49:13.312-0500:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-02-28 08:49:13.312-0500:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-02-28 08:49:13.312-0500:   online_backup_enabled=NO
+2012-02-28 08:49:13.312-0500:   ha.machine_id=2
+2012-02-28 08:49:13.312-0500:   enable_rules=YES
+2012-02-28 08:49:13.313-0500:   min_node_cache_size=0
+2012-02-28 08:49:13.313-0500:   neostore.relationshipstore.db.mapped_memory=50M
+2012-02-28 08:49:13.313-0500:   node_auto_indexing=false
+2012-02-28 08:49:13.313-0500:   neostore.nodestore.db.mapped_memory=25M
+2012-02-28 08:49:13.313-0500:   min_relationship_cache_size=0
+2012-02-28 08:49:13.313-0500:   ha.db=NO
+2012-02-28 08:49:13.313-0500:   max_relationship_cache_size=3500
+2012-02-28 08:49:13.313-0500:   use_adaptive_cache=YES
+2012-02-28 08:49:13.314-0500:   adaptive_cache_heap_ratio=0.77
+2012-02-28 08:49:13.314-0500:   identity_map=NO
+2012-02-28 08:49:13.314-0500:   adaptive_cache_manager_decrease_ratio=1.15
+2012-02-28 08:49:13.314-0500:   timestamps=YES
+2012-02-28 08:49:13.314-0500:   use_memory_mapped_buffers=true
+2012-02-28 08:49:13.314-0500:   rebuild_idgenerators_fast=true
+2012-02-28 08:49:13.314-0500:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-02-28 08:49:13.315-0500:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-02-28 08:49:13.315-0500:   max_node_cache_size=1500
+2012-02-28 08:49:13.315-0500:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-02-28 08:49:13.315-0500:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-02-28 08:49:13.315-0500:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-02-28 08:49:13.315-0500:   adaptive_cache_worker_sleep_time=3000
+2012-02-28 08:49:13.315-0500:   neostore.propertystore.db.index.mapped_memory=1M
+2012-02-28 08:49:13.315-0500:   create=true
+2012-02-28 08:49:13.316-0500:   adaptive_cache_manager_increase_ratio=1.1
+2012-02-28 08:49:13.316-0500:   enable_remote_shell=port=9332
+2012-02-28 08:49:13.316-0500:   neostore.propertystore.db.mapped_memory=90M
+2012-02-28 08:49:13.316-0500:   relationship_auto_indexing=false
+2012-02-28 08:49:13.316-0500:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-02-28 08:49:13.316-0500:   ha.server=localhost:6002
+2012-02-28 08:49:13.316-0500:   migration_thread=NO
+2012-02-28 08:49:13.317-0500: Storage files:
+2012-02-28 08:49:13.318-0500:   neostore.id: 9.00 B
+2012-02-28 08:49:13.318-0500:   messages.log: 278.70 kB
+2012-02-28 08:49:13.319-0500:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-02-28 08:49:13.319-0500:   neostore: 54.00 B
+2012-02-28 08:49:13.319-0500:   neostore.relationshipstore.db.id: 9.00 B
+2012-02-28 08:49:13.319-0500:   nioneo_logical.log.1: 16.00 B
+2012-02-28 08:49:13.320-0500:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-02-28 08:49:13.320-0500:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-02-28 08:49:13.320-0500:   lock: 0.00 B
+2012-02-28 08:49:13.320-0500:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-02-28 08:49:13.321-0500:   neostore.relationshipstore.db: 51.18 kB
+2012-02-28 08:49:13.321-0500:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-02-28 08:49:13.321-0500:   neostore.propertystore.db.strings: 128.00 B
+2012-02-28 08:49:13.322-0500:   neostore.propertystore.db.index: 1.02 kB
+2012-02-28 08:49:13.322-0500:   neostore.relationshiptypestore.db: 10.00 B
+2012-02-28 08:49:13.322-0500:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-02-28 08:49:13.322-0500:   nioneo_logical.log.active: 4.00 B
+2012-02-28 08:49:13.323-0500:   neostore.nodestore.db: 25.59 kB
+2012-02-28 08:49:13.323-0500:   neostore.propertystore.db.id: 9.00 B
+2012-02-28 08:49:13.323-0500:   neostore.propertystore.db.arrays: 128.00 B
+2012-02-28 08:49:13.324-0500:   neostore.propertystore.db.index.id: 9.00 B
+2012-02-28 08:49:13.324-0500:   neostore.propertystore.db.strings.id: 9.00 B
+2012-02-28 08:49:13.324-0500:   neostore.nodestore.db.id: 9.00 B
+2012-02-28 08:49:13.324-0500:   neostore.propertystore.db: 92.13 kB
+2012-02-28 08:49:13.325-0500:   tm_tx_log.1: 0.00 B
+2012-02-28 08:49:13.325-0500:   active_tx_log: 11.00 B
+2012-02-28 08:49:13.325-0500:   index:
+2012-02-28 08:49:13.326-0500:     lucene-store.db: 32.00 B
+2012-02-28 08:49:13.326-0500:     lucene.log.active: 4.00 B
+2012-02-28 08:49:13.326-0500:     lucene.log.1: 16.00 B
+2012-02-28 08:49:13.326-0500:   - Total: 52.00 B
+2012-02-28 08:49:13.327-0500: Id usage:
+2012-02-28 08:49:13.327-0500:   NodeStore: used=3 high=2
+2012-02-28 08:49:13.327-0500:   RelationshipStore: used=2 high=1
+2012-02-28 08:49:13.327-0500:   RelationshipTypeStore: used=2 high=1
+2012-02-28 08:49:13.328-0500:   PropertyStore: used=6 high=5
+2012-02-28 08:49:13.328-0500:   PropertyIndexStore: used=10 high=9
+2012-02-28 08:49:13.328-0500:   StringPropertyStore: used=1 high=0
+2012-02-28 08:49:13.329-0500:   ArrayPropertyStore: used=1 high=0
+2012-02-28 08:49:13.342-0500: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-02-28 08:49:13.342-0500: --- CONFIGURATION END ---
+2012-02-28 08:49:13.913-0500: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-02-28 08:49:13.932-0500: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-02-28 08:49:14.820-0500: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-03-01 15:29:00.664-0500: Closed log /home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-01 15:29:01.655-0500: NeoStore closed
+2012-03-01 15:29:01.741-0500: Closed log /home/me/workspace/magic/db/neo4j-development/index/lucene.log
+2012-03-01 15:29:01.762-0500: NeoStore closed
+2012-03-01 15:29:01.763-0500: TM shutting down
+2012-03-07 21:13:31.634-0500: Opened [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] clean empty log, version=0, lastTxId=5
+2012-03-07 21:13:32.211-0500: Opened [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-03-07 21:13:32.294-0500: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-03-07 21:13:32.467-0500: --- CONFIGURATION START ---
+2012-03-07 21:13:32.473-0500: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-03-07 21:13:32.473-0500: Physical mem: 2004MB, Heap size: 444MB
+2012-03-07 21:13:32.484-0500: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-03-07 21:13:32.484-0500: Neo4j component versions:
+2012-03-07 21:13:32.486-0500:   Neo4j - Graph Database Kernel 1.6.M01
+2012-03-07 21:13:32.486-0500: Store versions:
+2012-03-07 21:13:32.486-0500:   NeoStore v0.A.0
+2012-03-07 21:13:32.486-0500:   NodeStore v0.A.0
+2012-03-07 21:13:32.487-0500:   RelationshipStore v0.A.0
+2012-03-07 21:13:32.487-0500:   RelationshipTypeStore v0.A.0
+2012-03-07 21:13:32.487-0500:   PropertyStore v0.A.0
+2012-03-07 21:13:32.487-0500:   PropertyIndexStore v0.A.0
+2012-03-07 21:13:32.488-0500:   StringPropertyStore v0.A.0
+2012-03-07 21:13:32.488-0500:   ArrayPropertyStore v0.A.0
+2012-03-07 21:13:32.490-0500: Process id: 2060@me-laptop
+2012-03-07 21:13:32.491-0500: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-03-07 21:13:32.492-0500: Max number of file descriptors: 4096
+2012-03-07 21:13:32.493-0500: Number of open file descriptors: 73
+2012-03-07 21:13:32.506-0500: Total Physical memory: 1.96 GB
+2012-03-07 21:13:32.507-0500: Free Physical memory: 815.20 MB
+2012-03-07 21:13:32.508-0500: Committed virtual memory: 736.58 MB
+2012-03-07 21:13:32.509-0500: Total swap space: 1.99 GB
+2012-03-07 21:13:32.509-0500: Free swap space: 1.99 GB
+2012-03-07 21:13:32.519-0500: Byte order: LITTLE_ENDIAN
+2012-03-07 21:13:32.519-0500: VM Name: Java HotSpot(TM) Server VM
+2012-03-07 21:13:32.519-0500: VM Vendor: Sun Microsystems Inc.
+2012-03-07 21:13:32.520-0500: VM Version: 20.1-b02
+2012-03-07 21:13:32.529-0500: JIT compiler: HotSpot Tiered Compilers
+2012-03-07 21:13:32.534-0500: Class Path:
+2012-03-07 21:13:32.535-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-03-07 21:13:32.535-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-03-07 21:13:32.535-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-03-07 21:13:32.535-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-03-07 21:13:32.535-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-03-07 21:13:32.535-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-03-07 21:13:32.536-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-03-07 21:13:32.536-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-03-07 21:13:32.536-0500:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-03-07 21:13:32.536-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-03-07 21:13:32.536-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-03-07 21:13:32.536-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-03-07 21:13:32.536-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-03-07 21:13:32.536-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-03-07 21:13:32.537-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-03-07 21:13:32.537-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-03-07 21:13:32.537-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-03-07 21:13:32.537-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-03-07 21:13:32.537-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-03-07 21:13:32.537-0500:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-03-07 21:13:32.537-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-03-07 21:13:32.537-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-03-07 21:13:32.538-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-03-07 21:13:32.538-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-03-07 21:13:32.538-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-03-07 21:13:32.538-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-03-07 21:13:32.538-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-03-07 21:13:32.538-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-03-07 21:13:32.538-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-03-07 21:13:32.539-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-03-07 21:13:32.539-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-03-07 21:13:32.539-0500:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-03-07 21:13:32.539-0500:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-03-07 21:13:32.539-0500:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-03-07 21:13:32.539-0500: Library Path:
+2012-03-07 21:13:32.540-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-03-07 21:13:32.540-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-07 21:13:32.540-0500:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-03-07 21:13:32.540-0500:   /usr/java/packages/lib/i386
+2012-03-07 21:13:32.541-0500:   /lib
+2012-03-07 21:13:32.541-0500:   /usr/lib
+2012-03-07 21:13:32.557-0500: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-03-07 21:13:32.557-0500: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-03-07 21:13:32.561-0500: Memory Pool: Code Cache (Non-heap memory): committed=2.81 MB, used=2.73 MB, max=48.00 MB, threshold=0.00 B
+2012-03-07 21:13:32.562-0500: Memory Pool: PS Eden Space (Heap memory): committed=74.19 MB, used=42.35 MB, max=153.00 MB, threshold=?
+2012-03-07 21:13:32.562-0500: Memory Pool: PS Survivor Space (Heap memory): committed=6.38 MB, used=6.36 MB, max=6.38 MB, threshold=?
+2012-03-07 21:13:32.563-0500: Memory Pool: PS Old Gen (Heap memory): committed=37.06 MB, used=24.20 MB, max=333.38 MB, threshold=0.00 B
+2012-03-07 21:13:32.564-0500: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.50 MB, used=26.10 MB, max=64.00 MB, threshold=0.00 B
+2012-03-07 21:13:32.565-0500: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-03-07 21:13:32.566-0500: System properties:
+2012-03-07 21:13:32.566-0500:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-03-07 21:13:32.567-0500:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-07 21:13:32.567-0500:   path.separator = :
+2012-03-07 21:13:32.567-0500:   file.encoding.pkg = sun.io
+2012-03-07 21:13:32.567-0500:   sun.java.launcher = SUN_STANDARD
+2012-03-07 21:13:32.567-0500:   user.country = US
+2012-03-07 21:13:32.567-0500:   sun.os.patch.level = unknown
+2012-03-07 21:13:32.567-0500:   user.dir = /home/me/workspace/magic
+2012-03-07 21:13:32.568-0500:   jdk.home = 
+2012-03-07 21:13:32.568-0500:   sun.jnu.encoding = UTF-8
+2012-03-07 21:13:32.568-0500:   jruby.memory.max = 500m
+2012-03-07 21:13:32.568-0500:   sun.management.compiler = HotSpot Tiered Compilers
+2012-03-07 21:13:32.568-0500:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-03-07 21:13:32.569-0500:   user.home = /home/me
+2012-03-07 21:13:32.569-0500:   user.timezone = America/New_York
+2012-03-07 21:13:32.569-0500:   file.encoding = UTF-8
+2012-03-07 21:13:32.569-0500:   jruby.stack.max = 2048k
+2012-03-07 21:13:32.569-0500:   jruby.script = jruby
+2012-03-07 21:13:32.569-0500:   user.name = me
+2012-03-07 21:13:32.570-0500:   jruby.shell = /bin/sh
+2012-03-07 21:13:32.570-0500:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-03-07 21:13:32.570-0500:   sun.arch.data.model = 32
+2012-03-07 21:13:32.570-0500:   user.language = en
+2012-03-07 21:13:32.570-0500:   file.separator = /
+2012-03-07 21:13:32.570-0500:   sun.io.unicode.encoding = UnicodeLittle
+2012-03-07 21:13:32.571-0500:   sun.cpu.endian = little
+2012-03-07 21:13:32.571-0500:   sun.desktop = gnome
+2012-03-07 21:13:32.571-0500:   sun.cpu.isalist = 
+2012-03-07 21:13:32.571-0500: Neo4j Kernel properties:
+2012-03-07 21:13:32.571-0500:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-03-07 21:13:32.571-0500:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-07 21:13:32.571-0500:   online_backup_enabled=NO
+2012-03-07 21:13:32.572-0500:   ha.machine_id=2
+2012-03-07 21:13:32.572-0500:   enable_rules=YES
+2012-03-07 21:13:32.572-0500:   min_node_cache_size=0
+2012-03-07 21:13:32.572-0500:   neostore.relationshipstore.db.mapped_memory=50M
+2012-03-07 21:13:32.572-0500:   node_auto_indexing=false
+2012-03-07 21:13:32.572-0500:   neostore.nodestore.db.mapped_memory=25M
+2012-03-07 21:13:32.572-0500:   min_relationship_cache_size=0
+2012-03-07 21:13:32.573-0500:   ha.db=NO
+2012-03-07 21:13:32.573-0500:   max_relationship_cache_size=3500
+2012-03-07 21:13:32.573-0500:   use_adaptive_cache=YES
+2012-03-07 21:13:32.573-0500:   adaptive_cache_heap_ratio=0.77
+2012-03-07 21:13:32.573-0500:   identity_map=NO
+2012-03-07 21:13:32.573-0500:   adaptive_cache_manager_decrease_ratio=1.15
+2012-03-07 21:13:32.573-0500:   timestamps=YES
+2012-03-07 21:13:32.574-0500:   use_memory_mapped_buffers=true
+2012-03-07 21:13:32.574-0500:   rebuild_idgenerators_fast=true
+2012-03-07 21:13:32.574-0500:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-03-07 21:13:32.574-0500:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-03-07 21:13:32.574-0500:   max_node_cache_size=1500
+2012-03-07 21:13:32.574-0500:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-03-07 21:13:32.574-0500:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-03-07 21:13:32.574-0500:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-03-07 21:13:32.575-0500:   adaptive_cache_worker_sleep_time=3000
+2012-03-07 21:13:32.575-0500:   neostore.propertystore.db.index.mapped_memory=1M
+2012-03-07 21:13:32.575-0500:   create=true
+2012-03-07 21:13:32.575-0500:   adaptive_cache_manager_increase_ratio=1.1
+2012-03-07 21:13:32.575-0500:   enable_remote_shell=port=9332
+2012-03-07 21:13:32.575-0500:   neostore.propertystore.db.mapped_memory=90M
+2012-03-07 21:13:32.575-0500:   relationship_auto_indexing=false
+2012-03-07 21:13:32.576-0500:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-03-07 21:13:32.576-0500:   ha.server=localhost:6002
+2012-03-07 21:13:32.576-0500:   migration_thread=NO
+2012-03-07 21:13:32.576-0500: Storage files:
+2012-03-07 21:13:32.577-0500:   neostore.id: 9.00 B
+2012-03-07 21:13:32.578-0500:   messages.log: 294.79 kB
+2012-03-07 21:13:32.578-0500:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-03-07 21:13:32.578-0500:   neostore: 54.00 B
+2012-03-07 21:13:32.578-0500:   neostore.relationshipstore.db.id: 9.00 B
+2012-03-07 21:13:32.579-0500:   nioneo_logical.log.1: 16.00 B
+2012-03-07 21:13:32.579-0500:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-03-07 21:13:32.579-0500:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-03-07 21:13:32.579-0500:   lock: 0.00 B
+2012-03-07 21:13:32.580-0500:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-03-07 21:13:32.580-0500:   neostore.relationshipstore.db: 66.00 B
+2012-03-07 21:13:32.580-0500:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-03-07 21:13:32.581-0500:   neostore.propertystore.db.strings: 128.00 B
+2012-03-07 21:13:32.581-0500:   neostore.propertystore.db.index: 1.02 kB
+2012-03-07 21:13:32.581-0500:   neostore.relationshiptypestore.db: 10.00 B
+2012-03-07 21:13:32.581-0500:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-03-07 21:13:32.582-0500:   nioneo_logical.log.active: 4.00 B
+2012-03-07 21:13:32.582-0500:   neostore.nodestore.db: 27.00 B
+2012-03-07 21:13:32.582-0500:   neostore.propertystore.db.id: 9.00 B
+2012-03-07 21:13:32.583-0500:   neostore.propertystore.db.arrays: 128.00 B
+2012-03-07 21:13:32.583-0500:   neostore.propertystore.db.index.id: 9.00 B
+2012-03-07 21:13:32.583-0500:   neostore.propertystore.db.strings.id: 9.00 B
+2012-03-07 21:13:32.583-0500:   neostore.nodestore.db.id: 9.00 B
+2012-03-07 21:13:32.584-0500:   neostore.propertystore.db: 246.00 B
+2012-03-07 21:13:32.584-0500:   tm_tx_log.1: 0.00 B
+2012-03-07 21:13:32.584-0500:   active_tx_log: 11.00 B
+2012-03-07 21:13:32.584-0500:   index:
+2012-03-07 21:13:32.585-0500:     lucene-store.db: 32.00 B
+2012-03-07 21:13:32.585-0500:     lucene.log.active: 4.00 B
+2012-03-07 21:13:32.585-0500:     lucene.log.1: 16.00 B
+2012-03-07 21:13:32.586-0500:   - Total: 52.00 B
+2012-03-07 21:13:32.586-0500: Id usage:
+2012-03-07 21:13:32.586-0500:   NodeStore: used=3 high=2
+2012-03-07 21:13:32.587-0500:   RelationshipStore: used=2 high=1
+2012-03-07 21:13:32.587-0500:   RelationshipTypeStore: used=2 high=1
+2012-03-07 21:13:32.587-0500:   PropertyStore: used=6 high=5
+2012-03-07 21:13:32.587-0500:   PropertyIndexStore: used=10 high=9
+2012-03-07 21:13:32.587-0500:   StringPropertyStore: used=1 high=0
+2012-03-07 21:13:32.588-0500:   ArrayPropertyStore: used=1 high=0
+2012-03-07 21:13:32.601-0500: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-03-07 21:13:32.601-0500: --- CONFIGURATION END ---
+2012-03-07 21:13:33.165-0500: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-03-07 21:13:33.183-0500: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-03-07 21:13:34.109-0500: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-03-09 00:16:52.253-0500: Closed log /home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-09 00:16:53.106-0500: NeoStore closed
+2012-03-09 00:16:53.178-0500: Closed log /home/me/workspace/magic/db/neo4j-development/index/lucene.log
+2012-03-09 00:16:53.191-0500: NeoStore closed
+2012-03-09 00:16:53.192-0500: TM shutting down
+2012-03-11 19:56:19.658-0400: Opened [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] clean empty log, version=0, lastTxId=5
+2012-03-11 19:56:20.148-0400: Opened [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-03-11 19:56:20.220-0400: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-03-11 19:56:20.393-0400: --- CONFIGURATION START ---
+2012-03-11 19:56:20.399-0400: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-03-11 19:56:20.399-0400: Physical mem: 2004MB, Heap size: 444MB
+2012-03-11 19:56:20.410-0400: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-03-11 19:56:20.411-0400: Neo4j component versions:
+2012-03-11 19:56:20.412-0400:   Neo4j - Graph Database Kernel 1.6.M01
+2012-03-11 19:56:20.413-0400: Store versions:
+2012-03-11 19:56:20.413-0400:   NeoStore v0.A.0
+2012-03-11 19:56:20.413-0400:   NodeStore v0.A.0
+2012-03-11 19:56:20.414-0400:   RelationshipStore v0.A.0
+2012-03-11 19:56:20.414-0400:   RelationshipTypeStore v0.A.0
+2012-03-11 19:56:20.414-0400:   PropertyStore v0.A.0
+2012-03-11 19:56:20.414-0400:   PropertyIndexStore v0.A.0
+2012-03-11 19:56:20.414-0400:   StringPropertyStore v0.A.0
+2012-03-11 19:56:20.414-0400:   ArrayPropertyStore v0.A.0
+2012-03-11 19:56:20.417-0400: Process id: 32090@me-laptop
+2012-03-11 19:56:20.418-0400: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-03-11 19:56:20.419-0400: Max number of file descriptors: 4096
+2012-03-11 19:56:20.420-0400: Number of open file descriptors: 73
+2012-03-11 19:56:20.468-0400: Total Physical memory: 1.96 GB
+2012-03-11 19:56:20.469-0400: Free Physical memory: 139.68 MB
+2012-03-11 19:56:20.469-0400: Committed virtual memory: 723.09 MB
+2012-03-11 19:56:20.470-0400: Total swap space: 1.99 GB
+2012-03-11 19:56:20.471-0400: Free swap space: 1.97 GB
+2012-03-11 19:56:20.481-0400: Byte order: LITTLE_ENDIAN
+2012-03-11 19:56:20.481-0400: VM Name: Java HotSpot(TM) Server VM
+2012-03-11 19:56:20.481-0400: VM Vendor: Sun Microsystems Inc.
+2012-03-11 19:56:20.481-0400: VM Version: 20.1-b02
+2012-03-11 19:56:20.488-0400: JIT compiler: HotSpot Tiered Compilers
+2012-03-11 19:56:20.495-0400: Class Path:
+2012-03-11 19:56:20.495-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-03-11 19:56:20.495-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-03-11 19:56:20.495-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-03-11 19:56:20.495-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-03-11 19:56:20.496-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-03-11 19:56:20.496-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-03-11 19:56:20.496-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-03-11 19:56:20.496-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-03-11 19:56:20.496-0400:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-03-11 19:56:20.496-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-03-11 19:56:20.496-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-03-11 19:56:20.496-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-03-11 19:56:20.497-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-03-11 19:56:20.497-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-03-11 19:56:20.497-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-03-11 19:56:20.497-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-03-11 19:56:20.497-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-03-11 19:56:20.497-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-03-11 19:56:20.497-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-03-11 19:56:20.498-0400:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-03-11 19:56:20.498-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-03-11 19:56:20.498-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-03-11 19:56:20.498-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-03-11 19:56:20.498-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-03-11 19:56:20.498-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-03-11 19:56:20.498-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-03-11 19:56:20.498-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-03-11 19:56:20.499-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-03-11 19:56:20.499-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-03-11 19:56:20.499-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-03-11 19:56:20.499-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-03-11 19:56:20.499-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-03-11 19:56:20.499-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-03-11 19:56:20.499-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-03-11 19:56:20.500-0400: Library Path:
+2012-03-11 19:56:20.500-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-03-11 19:56:20.500-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-11 19:56:20.501-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-03-11 19:56:20.501-0400:   /usr/java/packages/lib/i386
+2012-03-11 19:56:20.501-0400:   /lib
+2012-03-11 19:56:20.501-0400:   /usr/lib
+2012-03-11 19:56:20.515-0400: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-03-11 19:56:20.515-0400: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-03-11 19:56:20.518-0400: Memory Pool: Code Cache (Non-heap memory): committed=2.88 MB, used=2.81 MB, max=48.00 MB, threshold=0.00 B
+2012-03-11 19:56:20.519-0400: Memory Pool: PS Eden Space (Heap memory): committed=122.25 MB, used=18.54 MB, max=153.94 MB, threshold=?
+2012-03-11 19:56:20.519-0400: Memory Pool: PS Survivor Space (Heap memory): committed=5.69 MB, used=4.99 MB, max=5.69 MB, threshold=?
+2012-03-11 19:56:20.520-0400: Memory Pool: PS Old Gen (Heap memory): committed=37.19 MB, used=26.65 MB, max=333.38 MB, threshold=0.00 B
+2012-03-11 19:56:20.520-0400: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.88 MB, used=26.10 MB, max=64.00 MB, threshold=0.00 B
+2012-03-11 19:56:20.521-0400: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-03-11 19:56:20.522-0400: System properties:
+2012-03-11 19:56:20.523-0400:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-03-11 19:56:20.524-0400:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-11 19:56:20.524-0400:   path.separator = :
+2012-03-11 19:56:20.524-0400:   file.encoding.pkg = sun.io
+2012-03-11 19:56:20.524-0400:   sun.java.launcher = SUN_STANDARD
+2012-03-11 19:56:20.524-0400:   user.country = US
+2012-03-11 19:56:20.525-0400:   sun.os.patch.level = unknown
+2012-03-11 19:56:20.525-0400:   user.dir = /home/me/workspace/magic
+2012-03-11 19:56:20.525-0400:   jdk.home = 
+2012-03-11 19:56:20.525-0400:   sun.jnu.encoding = UTF-8
+2012-03-11 19:56:20.526-0400:   jruby.memory.max = 500m
+2012-03-11 19:56:20.526-0400:   sun.management.compiler = HotSpot Tiered Compilers
+2012-03-11 19:56:20.526-0400:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-03-11 19:56:20.527-0400:   user.home = /home/me
+2012-03-11 19:56:20.527-0400:   user.timezone = America/New_York
+2012-03-11 19:56:20.527-0400:   file.encoding = UTF-8
+2012-03-11 19:56:20.528-0400:   jruby.stack.max = 2048k
+2012-03-11 19:56:20.528-0400:   jruby.script = jruby
+2012-03-11 19:56:20.528-0400:   user.name = me
+2012-03-11 19:56:20.528-0400:   jruby.shell = /bin/sh
+2012-03-11 19:56:20.529-0400:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-03-11 19:56:20.529-0400:   sun.arch.data.model = 32
+2012-03-11 19:56:20.529-0400:   user.language = en
+2012-03-11 19:56:20.530-0400:   file.separator = /
+2012-03-11 19:56:20.530-0400:   sun.io.unicode.encoding = UnicodeLittle
+2012-03-11 19:56:20.530-0400:   sun.cpu.endian = little
+2012-03-11 19:56:20.530-0400:   sun.desktop = gnome
+2012-03-11 19:56:20.530-0400:   sun.cpu.isalist = 
+2012-03-11 19:56:20.531-0400: Neo4j Kernel properties:
+2012-03-11 19:56:20.531-0400:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-03-11 19:56:20.531-0400:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-11 19:56:20.531-0400:   online_backup_enabled=NO
+2012-03-11 19:56:20.531-0400:   ha.machine_id=2
+2012-03-11 19:56:20.532-0400:   enable_rules=YES
+2012-03-11 19:56:20.532-0400:   min_node_cache_size=0
+2012-03-11 19:56:20.532-0400:   neostore.relationshipstore.db.mapped_memory=50M
+2012-03-11 19:56:20.532-0400:   node_auto_indexing=false
+2012-03-11 19:56:20.532-0400:   neostore.nodestore.db.mapped_memory=25M
+2012-03-11 19:56:20.532-0400:   min_relationship_cache_size=0
+2012-03-11 19:56:20.532-0400:   ha.db=NO
+2012-03-11 19:56:20.533-0400:   max_relationship_cache_size=3500
+2012-03-11 19:56:20.533-0400:   use_adaptive_cache=YES
+2012-03-11 19:56:20.533-0400:   adaptive_cache_heap_ratio=0.77
+2012-03-11 19:56:20.533-0400:   identity_map=NO
+2012-03-11 19:56:20.533-0400:   adaptive_cache_manager_decrease_ratio=1.15
+2012-03-11 19:56:20.533-0400:   timestamps=YES
+2012-03-11 19:56:20.533-0400:   use_memory_mapped_buffers=true
+2012-03-11 19:56:20.534-0400:   rebuild_idgenerators_fast=true
+2012-03-11 19:56:20.534-0400:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-03-11 19:56:20.534-0400:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-03-11 19:56:20.534-0400:   max_node_cache_size=1500
+2012-03-11 19:56:20.534-0400:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-03-11 19:56:20.534-0400:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-03-11 19:56:20.534-0400:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-03-11 19:56:20.535-0400:   adaptive_cache_worker_sleep_time=3000
+2012-03-11 19:56:20.535-0400:   neostore.propertystore.db.index.mapped_memory=1M
+2012-03-11 19:56:20.535-0400:   create=true
+2012-03-11 19:56:20.535-0400:   adaptive_cache_manager_increase_ratio=1.1
+2012-03-11 19:56:20.535-0400:   enable_remote_shell=port=9332
+2012-03-11 19:56:20.535-0400:   neostore.propertystore.db.mapped_memory=90M
+2012-03-11 19:56:20.535-0400:   relationship_auto_indexing=false
+2012-03-11 19:56:20.536-0400:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-03-11 19:56:20.536-0400:   ha.server=localhost:6002
+2012-03-11 19:56:20.536-0400:   migration_thread=NO
+2012-03-11 19:56:20.536-0400: Storage files:
+2012-03-11 19:56:20.537-0400:   neostore.id: 9.00 B
+2012-03-11 19:56:20.538-0400:   messages.log: 310.88 kB
+2012-03-11 19:56:20.538-0400:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-03-11 19:56:20.539-0400:   neostore: 54.00 B
+2012-03-11 19:56:20.539-0400:   neostore.relationshipstore.db.id: 9.00 B
+2012-03-11 19:56:20.540-0400:   nioneo_logical.log.1: 16.00 B
+2012-03-11 19:56:20.540-0400:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-03-11 19:56:20.540-0400:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-03-11 19:56:20.541-0400:   lock: 0.00 B
+2012-03-11 19:56:20.541-0400:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-03-11 19:56:20.542-0400:   neostore.relationshipstore.db: 66.00 B
+2012-03-11 19:56:20.542-0400:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-03-11 19:56:20.543-0400:   neostore.propertystore.db.strings: 128.00 B
+2012-03-11 19:56:20.543-0400:   neostore.propertystore.db.index: 1.02 kB
+2012-03-11 19:56:20.544-0400:   neostore.relationshiptypestore.db: 10.00 B
+2012-03-11 19:56:20.544-0400:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-03-11 19:56:20.545-0400:   nioneo_logical.log.active: 4.00 B
+2012-03-11 19:56:20.545-0400:   neostore.nodestore.db: 27.00 B
+2012-03-11 19:56:20.546-0400:   neostore.propertystore.db.id: 9.00 B
+2012-03-11 19:56:20.547-0400:   neostore.propertystore.db.arrays: 128.00 B
+2012-03-11 19:56:20.547-0400:   neostore.propertystore.db.index.id: 9.00 B
+2012-03-11 19:56:20.548-0400:   neostore.propertystore.db.strings.id: 9.00 B
+2012-03-11 19:56:20.548-0400:   neostore.nodestore.db.id: 9.00 B
+2012-03-11 19:56:20.548-0400:   neostore.propertystore.db: 246.00 B
+2012-03-11 19:56:20.548-0400:   tm_tx_log.1: 0.00 B
+2012-03-11 19:56:20.549-0400:   active_tx_log: 11.00 B
+2012-03-11 19:56:20.549-0400:   index:
+2012-03-11 19:56:20.549-0400:     lucene-store.db: 32.00 B
+2012-03-11 19:56:20.550-0400:     lucene.log.active: 4.00 B
+2012-03-11 19:56:20.550-0400:     lucene.log.1: 16.00 B
+2012-03-11 19:56:20.550-0400:   - Total: 52.00 B
+2012-03-11 19:56:20.551-0400: Id usage:
+2012-03-11 19:56:20.551-0400:   NodeStore: used=3 high=2
+2012-03-11 19:56:20.551-0400:   RelationshipStore: used=2 high=1
+2012-03-11 19:56:20.552-0400:   RelationshipTypeStore: used=2 high=1
+2012-03-11 19:56:20.552-0400:   PropertyStore: used=6 high=5
+2012-03-11 19:56:20.552-0400:   PropertyIndexStore: used=10 high=9
+2012-03-11 19:56:20.552-0400:   StringPropertyStore: used=1 high=0
+2012-03-11 19:56:20.553-0400:   ArrayPropertyStore: used=1 high=0
+2012-03-11 19:56:20.571-0400: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-03-11 19:56:20.571-0400: --- CONFIGURATION END ---
+2012-03-11 19:56:21.158-0400: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-03-11 19:56:21.172-0400: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-03-11 19:56:22.159-0400: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-03-13 11:09:22.608-0400: /home/me/workspace/magic/db/neo4j-development/neostore non clean shutdown detected
+2012-03-13 11:09:22.718-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db non clean shutdown detected
+2012-03-13 11:09:22.745-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names non clean shutdown detected
+2012-03-13 11:09:22.839-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db non clean shutdown detected
+2012-03-13 11:09:22.845-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings non clean shutdown detected
+2012-03-13 11:09:22.865-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index non clean shutdown detected
+2012-03-13 11:09:22.882-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys non clean shutdown detected
+2012-03-13 11:09:22.891-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays non clean shutdown detected
+2012-03-13 11:09:22.911-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db non clean shutdown detected
+2012-03-13 11:09:22.925-0400: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db non clean shutdown detected
+2012-03-13 11:09:23.109-0400: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1]. Recovery started ...
+2012-03-13 11:09:23.176-0400: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] logVersion=0 with committed tx=5
+2012-03-13 11:09:23.178-0400: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2012-03-13 11:09:23.180-0400: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-03-13 11:09:23.180-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] sorting 0 xids
+2012-03-13 11:09:23.186-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] checkRecoveryComplete 0 xids
+2012-03-13 11:09:23.245-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2012-03-13 11:09:23.405-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys rebuild id generator, highId=10 defragged count=0
+2012-03-13 11:09:23.490-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index rebuild id generator, highId=10 defragged count=0
+2012-03-13 11:09:23.570-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2012-03-13 11:09:23.649-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2012-03-13 11:09:23.931-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db rebuild id generator, highId=6 defragged count=0
+2012-03-13 11:09:24.090-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db rebuild id generator, highId=2 defragged count=0
+2012-03-13 11:09:24.312-0400: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db rebuild id generator, highId=3 defragged count=0
+2012-03-13 11:09:24.421-0400: /home/me/workspace/magic/db/neo4j-development/neostore rebuild id generator, highId=6 defragged count=0
+2012-03-13 11:09:24.474-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] recovery completed.
+2012-03-13 11:09:24.475-0400: Recovery on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] completed.
+2012-03-13 11:09:24.895-0400: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1]. Recovery started ...
+2012-03-13 11:09:24.903-0400: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] logVersion=0 with committed tx=1
+2012-03-13 11:09:24.904-0400: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] entries found=0 lastEntryPos=16
+2012-03-13 11:09:24.905-0400: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-03-13 11:09:24.905-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] sorting 0 xids
+2012-03-13 11:09:24.906-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] checkRecoveryComplete 0 xids
+2012-03-13 11:09:24.906-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] recovery completed.
+2012-03-13 11:09:24.906-0400: Recovery on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] completed.
+2012-03-13 11:09:24.916-0400: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-03-13 11:09:25.084-0400: --- CONFIGURATION START ---
+2012-03-13 11:09:25.089-0400: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-03-13 11:09:25.090-0400: Physical mem: 2004MB, Heap size: 444MB
+2012-03-13 11:09:25.101-0400: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-03-13 11:09:25.101-0400: Neo4j component versions:
+2012-03-13 11:09:25.103-0400:   Neo4j - Graph Database Kernel 1.6.M01
+2012-03-13 11:09:25.104-0400: Store versions:
+2012-03-13 11:09:25.104-0400:   NeoStore v0.A.0
+2012-03-13 11:09:25.104-0400:   NodeStore v0.A.0
+2012-03-13 11:09:25.104-0400:   RelationshipStore v0.A.0
+2012-03-13 11:09:25.104-0400:   RelationshipTypeStore v0.A.0
+2012-03-13 11:09:25.105-0400:   PropertyStore v0.A.0
+2012-03-13 11:09:25.105-0400:   PropertyIndexStore v0.A.0
+2012-03-13 11:09:25.105-0400:   StringPropertyStore v0.A.0
+2012-03-13 11:09:25.105-0400:   ArrayPropertyStore v0.A.0
+2012-03-13 11:09:25.108-0400: Process id: 2751@me-laptop
+2012-03-13 11:09:25.109-0400: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-03-13 11:09:25.110-0400: Max number of file descriptors: 4096
+2012-03-13 11:09:25.111-0400: Number of open file descriptors: 74
+2012-03-13 11:09:25.123-0400: Total Physical memory: 1.96 GB
+2012-03-13 11:09:25.124-0400: Free Physical memory: 531.16 MB
+2012-03-13 11:09:25.125-0400: Committed virtual memory: 728.32 MB
+2012-03-13 11:09:25.126-0400: Total swap space: 1.99 GB
+2012-03-13 11:09:25.127-0400: Free swap space: 1.99 GB
+2012-03-13 11:09:25.138-0400: Byte order: LITTLE_ENDIAN
+2012-03-13 11:09:25.138-0400: VM Name: Java HotSpot(TM) Server VM
+2012-03-13 11:09:25.139-0400: VM Vendor: Sun Microsystems Inc.
+2012-03-13 11:09:25.139-0400: VM Version: 20.1-b02
+2012-03-13 11:09:25.146-0400: JIT compiler: HotSpot Tiered Compilers
+2012-03-13 11:09:25.153-0400: Class Path:
+2012-03-13 11:09:25.153-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-03-13 11:09:25.153-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-03-13 11:09:25.154-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-03-13 11:09:25.154-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-03-13 11:09:25.154-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-03-13 11:09:25.154-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-03-13 11:09:25.154-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-03-13 11:09:25.155-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-03-13 11:09:25.155-0400:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-03-13 11:09:25.155-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-03-13 11:09:25.155-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-03-13 11:09:25.155-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-03-13 11:09:25.155-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-03-13 11:09:25.155-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-03-13 11:09:25.156-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-03-13 11:09:25.156-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-03-13 11:09:25.156-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-03-13 11:09:25.156-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-03-13 11:09:25.156-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-03-13 11:09:25.156-0400:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-03-13 11:09:25.156-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-03-13 11:09:25.157-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-03-13 11:09:25.157-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-03-13 11:09:25.157-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-03-13 11:09:25.157-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-03-13 11:09:25.157-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-03-13 11:09:25.157-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-03-13 11:09:25.157-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-03-13 11:09:25.157-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-03-13 11:09:25.158-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-03-13 11:09:25.158-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-03-13 11:09:25.158-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-03-13 11:09:25.158-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-03-13 11:09:25.158-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-03-13 11:09:25.158-0400: Library Path:
+2012-03-13 11:09:25.159-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-03-13 11:09:25.159-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-13 11:09:25.160-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-03-13 11:09:25.160-0400:   /usr/java/packages/lib/i386
+2012-03-13 11:09:25.160-0400:   /lib
+2012-03-13 11:09:25.160-0400:   /usr/lib
+2012-03-13 11:09:25.174-0400: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-03-13 11:09:25.174-0400: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-03-13 11:09:25.177-0400: Memory Pool: Code Cache (Non-heap memory): committed=2.84 MB, used=2.80 MB, max=48.00 MB, threshold=0.00 B
+2012-03-13 11:09:25.178-0400: Memory Pool: PS Eden Space (Heap memory): committed=121.94 MB, used=85.79 MB, max=155.38 MB, threshold=?
+2012-03-13 11:09:25.178-0400: Memory Pool: PS Survivor Space (Heap memory): committed=5.38 MB, used=4.90 MB, max=5.38 MB, threshold=?
+2012-03-13 11:09:25.179-0400: Memory Pool: PS Old Gen (Heap memory): committed=36.81 MB, used=23.37 MB, max=333.38 MB, threshold=0.00 B
+2012-03-13 11:09:25.179-0400: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.50 MB, used=26.22 MB, max=64.00 MB, threshold=0.00 B
+2012-03-13 11:09:25.180-0400: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-03-13 11:09:25.180-0400: System properties:
+2012-03-13 11:09:25.181-0400:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-03-13 11:09:25.181-0400:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-13 11:09:25.181-0400:   path.separator = :
+2012-03-13 11:09:25.182-0400:   file.encoding.pkg = sun.io
+2012-03-13 11:09:25.182-0400:   sun.java.launcher = SUN_STANDARD
+2012-03-13 11:09:25.182-0400:   user.country = US
+2012-03-13 11:09:25.182-0400:   sun.os.patch.level = unknown
+2012-03-13 11:09:25.182-0400:   user.dir = /home/me/workspace/magic
+2012-03-13 11:09:25.182-0400:   jdk.home = 
+2012-03-13 11:09:25.182-0400:   sun.jnu.encoding = UTF-8
+2012-03-13 11:09:25.183-0400:   jruby.memory.max = 500m
+2012-03-13 11:09:25.183-0400:   sun.management.compiler = HotSpot Tiered Compilers
+2012-03-13 11:09:25.183-0400:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-03-13 11:09:25.184-0400:   user.home = /home/me
+2012-03-13 11:09:25.184-0400:   user.timezone = America/New_York
+2012-03-13 11:09:25.184-0400:   file.encoding = UTF-8
+2012-03-13 11:09:25.184-0400:   jruby.stack.max = 2048k
+2012-03-13 11:09:25.184-0400:   jruby.script = jruby
+2012-03-13 11:09:25.184-0400:   user.name = me
+2012-03-13 11:09:25.184-0400:   jruby.shell = /bin/sh
+2012-03-13 11:09:25.185-0400:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-03-13 11:09:25.185-0400:   sun.arch.data.model = 32
+2012-03-13 11:09:25.185-0400:   user.language = en
+2012-03-13 11:09:25.185-0400:   file.separator = /
+2012-03-13 11:09:25.185-0400:   sun.io.unicode.encoding = UnicodeLittle
+2012-03-13 11:09:25.185-0400:   sun.cpu.endian = little
+2012-03-13 11:09:25.185-0400:   sun.desktop = gnome
+2012-03-13 11:09:25.186-0400:   sun.cpu.isalist = 
+2012-03-13 11:09:25.186-0400: Neo4j Kernel properties:
+2012-03-13 11:09:25.186-0400:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-03-13 11:09:25.186-0400:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-13 11:09:25.186-0400:   online_backup_enabled=NO
+2012-03-13 11:09:25.186-0400:   ha.machine_id=2
+2012-03-13 11:09:25.187-0400:   enable_rules=YES
+2012-03-13 11:09:25.187-0400:   min_node_cache_size=0
+2012-03-13 11:09:25.187-0400:   neostore.relationshipstore.db.mapped_memory=50M
+2012-03-13 11:09:25.187-0400:   node_auto_indexing=false
+2012-03-13 11:09:25.187-0400:   neostore.nodestore.db.mapped_memory=25M
+2012-03-13 11:09:25.187-0400:   min_relationship_cache_size=0
+2012-03-13 11:09:25.187-0400:   ha.db=NO
+2012-03-13 11:09:25.187-0400:   max_relationship_cache_size=3500
+2012-03-13 11:09:25.188-0400:   use_adaptive_cache=YES
+2012-03-13 11:09:25.188-0400:   adaptive_cache_heap_ratio=0.77
+2012-03-13 11:09:25.188-0400:   identity_map=NO
+2012-03-13 11:09:25.188-0400:   adaptive_cache_manager_decrease_ratio=1.15
+2012-03-13 11:09:25.188-0400:   timestamps=YES
+2012-03-13 11:09:25.189-0400:   use_memory_mapped_buffers=true
+2012-03-13 11:09:25.189-0400:   rebuild_idgenerators_fast=true
+2012-03-13 11:09:25.189-0400:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-03-13 11:09:25.189-0400:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-03-13 11:09:25.189-0400:   max_node_cache_size=1500
+2012-03-13 11:09:25.189-0400:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-03-13 11:09:25.189-0400:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-03-13 11:09:25.189-0400:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-03-13 11:09:25.190-0400:   adaptive_cache_worker_sleep_time=3000
+2012-03-13 11:09:25.190-0400:   neostore.propertystore.db.index.mapped_memory=1M
+2012-03-13 11:09:25.190-0400:   create=true
+2012-03-13 11:09:25.190-0400:   adaptive_cache_manager_increase_ratio=1.1
+2012-03-13 11:09:25.190-0400:   enable_remote_shell=port=9332
+2012-03-13 11:09:25.190-0400:   neostore.propertystore.db.mapped_memory=90M
+2012-03-13 11:09:25.190-0400:   relationship_auto_indexing=false
+2012-03-13 11:09:25.191-0400:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-03-13 11:09:25.191-0400:   ha.server=localhost:6002
+2012-03-13 11:09:25.191-0400:   migration_thread=NO
+2012-03-13 11:09:25.191-0400: Storage files:
+2012-03-13 11:09:25.192-0400:   neostore.id: 9.00 B
+2012-03-13 11:09:25.193-0400:   messages.log: 331.11 kB
+2012-03-13 11:09:25.193-0400:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-03-13 11:09:25.193-0400:   neostore: 54.00 B
+2012-03-13 11:09:25.193-0400:   neostore.relationshipstore.db.id: 9.00 B
+2012-03-13 11:09:25.194-0400:   nioneo_logical.log.1: 16.00 B
+2012-03-13 11:09:25.194-0400:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-03-13 11:09:25.195-0400:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-03-13 11:09:25.195-0400:   lock: 0.00 B
+2012-03-13 11:09:25.196-0400:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-03-13 11:09:25.196-0400:   neostore.relationshipstore.db: 51.18 kB
+2012-03-13 11:09:25.197-0400:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-03-13 11:09:25.197-0400:   neostore.propertystore.db.strings: 128.00 B
+2012-03-13 11:09:25.198-0400:   neostore.propertystore.db.index: 1.02 kB
+2012-03-13 11:09:25.198-0400:   neostore.relationshiptypestore.db: 10.00 B
+2012-03-13 11:09:25.198-0400:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-03-13 11:09:25.199-0400:   nioneo_logical.log.active: 4.00 B
+2012-03-13 11:09:25.199-0400:   neostore.nodestore.db: 25.59 kB
+2012-03-13 11:09:25.199-0400:   neostore.propertystore.db.id: 9.00 B
+2012-03-13 11:09:25.200-0400:   neostore.propertystore.db.arrays: 128.00 B
+2012-03-13 11:09:25.201-0400:   neostore.propertystore.db.index.id: 9.00 B
+2012-03-13 11:09:25.201-0400:   neostore.propertystore.db.strings.id: 9.00 B
+2012-03-13 11:09:25.201-0400:   neostore.nodestore.db.id: 9.00 B
+2012-03-13 11:09:25.201-0400:   neostore.propertystore.db: 92.13 kB
+2012-03-13 11:09:25.202-0400:   tm_tx_log.1: 0.00 B
+2012-03-13 11:09:25.202-0400:   active_tx_log: 11.00 B
+2012-03-13 11:09:25.202-0400:   index:
+2012-03-13 11:09:25.203-0400:     lucene-store.db: 32.00 B
+2012-03-13 11:09:25.203-0400:     lucene.log.active: 4.00 B
+2012-03-13 11:09:25.203-0400:     lucene.log.1: 16.00 B
+2012-03-13 11:09:25.204-0400:   - Total: 52.00 B
+2012-03-13 11:09:25.204-0400: Id usage:
+2012-03-13 11:09:25.204-0400:   NodeStore: used=3 high=2
+2012-03-13 11:09:25.205-0400:   RelationshipStore: used=2 high=1
+2012-03-13 11:09:25.205-0400:   RelationshipTypeStore: used=2 high=1
+2012-03-13 11:09:25.205-0400:   PropertyStore: used=6 high=5
+2012-03-13 11:09:25.206-0400:   PropertyIndexStore: used=10 high=9
+2012-03-13 11:09:25.206-0400:   StringPropertyStore: used=1 high=0
+2012-03-13 11:09:25.206-0400:   ArrayPropertyStore: used=1 high=0
+2012-03-13 11:09:25.219-0400: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-03-13 11:09:25.220-0400: --- CONFIGURATION END ---
+2012-03-13 11:09:25.787-0400: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-03-13 11:09:25.801-0400: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-03-13 11:09:26.654-0400: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-03-13 23:53:34.032-0400: /home/me/workspace/magic/db/neo4j-development/neostore non clean shutdown detected
+2012-03-13 23:53:34.142-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db non clean shutdown detected
+2012-03-13 23:53:34.185-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names non clean shutdown detected
+2012-03-13 23:53:34.277-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db non clean shutdown detected
+2012-03-13 23:53:34.288-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings non clean shutdown detected
+2012-03-13 23:53:34.304-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index non clean shutdown detected
+2012-03-13 23:53:34.320-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys non clean shutdown detected
+2012-03-13 23:53:34.325-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays non clean shutdown detected
+2012-03-13 23:53:34.346-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db non clean shutdown detected
+2012-03-13 23:53:34.361-0400: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db non clean shutdown detected
+2012-03-13 23:53:34.560-0400: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1]. Recovery started ...
+2012-03-13 23:53:34.624-0400: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] logVersion=0 with committed tx=5
+2012-03-13 23:53:34.626-0400: [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] entries found=0 lastEntryPos=16
+2012-03-13 23:53:34.628-0400: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-03-13 23:53:34.628-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] sorting 0 xids
+2012-03-13 23:53:34.633-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] checkRecoveryComplete 0 xids
+2012-03-13 23:53:34.757-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshiptypestore.db.names rebuild id generator, highId=3 defragged count=0
+2012-03-13 23:53:34.929-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index.keys rebuild id generator, highId=10 defragged count=0
+2012-03-13 23:53:35.036-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.index rebuild id generator, highId=10 defragged count=0
+2012-03-13 23:53:35.116-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2012-03-13 23:53:35.183-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2012-03-13 23:53:35.493-0400: /home/me/workspace/magic/db/neo4j-development/neostore.propertystore.db rebuild id generator, highId=6 defragged count=0
+2012-03-13 23:53:35.672-0400: /home/me/workspace/magic/db/neo4j-development/neostore.relationshipstore.db rebuild id generator, highId=2 defragged count=0
+2012-03-13 23:53:35.870-0400: /home/me/workspace/magic/db/neo4j-development/neostore.nodestore.db rebuild id generator, highId=3 defragged count=0
+2012-03-13 23:53:35.935-0400: /home/me/workspace/magic/db/neo4j-development/neostore rebuild id generator, highId=6 defragged count=0
+2012-03-13 23:53:35.981-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log] recovery completed.
+2012-03-13 23:53:35.982-0400: Recovery on log [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] completed.
+2012-03-13 23:53:36.454-0400: Non clean shutdown detected on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1]. Recovery started ...
+2012-03-13 23:53:36.461-0400: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] logVersion=0 with committed tx=1
+2012-03-13 23:53:36.462-0400: [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] entries found=0 lastEntryPos=16
+2012-03-13 23:53:36.464-0400: Internal recovery completed, scanned 0 log entries. Recovered 0 transactions. Last tx recovered: -1
+2012-03-13 23:53:36.464-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] sorting 0 xids
+2012-03-13 23:53:36.464-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] checkRecoveryComplete 0 xids
+2012-03-13 23:53:36.465-0400: XaResourceManager[/home/me/workspace/magic/db/neo4j-development/index/lucene.log] recovery completed.
+2012-03-13 23:53:36.465-0400: Recovery on log [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] completed.
+2012-03-13 23:53:36.477-0400: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-03-13 23:53:36.804-0400: --- CONFIGURATION START ---
+2012-03-13 23:53:36.811-0400: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-03-13 23:53:36.811-0400: Physical mem: 2004MB, Heap size: 444MB
+2012-03-13 23:53:36.825-0400: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-03-13 23:53:36.826-0400: Neo4j component versions:
+2012-03-13 23:53:36.828-0400:   Neo4j - Graph Database Kernel 1.6.M01
+2012-03-13 23:53:36.828-0400: Store versions:
+2012-03-13 23:53:36.829-0400:   NeoStore v0.A.0
+2012-03-13 23:53:36.829-0400:   NodeStore v0.A.0
+2012-03-13 23:53:36.829-0400:   RelationshipStore v0.A.0
+2012-03-13 23:53:36.829-0400:   RelationshipTypeStore v0.A.0
+2012-03-13 23:53:36.829-0400:   PropertyStore v0.A.0
+2012-03-13 23:53:36.830-0400:   PropertyIndexStore v0.A.0
+2012-03-13 23:53:36.830-0400:   StringPropertyStore v0.A.0
+2012-03-13 23:53:36.830-0400:   ArrayPropertyStore v0.A.0
+2012-03-13 23:53:36.833-0400: Process id: 3010@me-laptop
+2012-03-13 23:53:36.834-0400: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-03-13 23:53:36.835-0400: Max number of file descriptors: 4096
+2012-03-13 23:53:36.837-0400: Number of open file descriptors: 74
+2012-03-13 23:53:36.859-0400: Total Physical memory: 1.96 GB
+2012-03-13 23:53:36.860-0400: Free Physical memory: 724.23 MB
+2012-03-13 23:53:36.861-0400: Committed virtual memory: 740.77 MB
+2012-03-13 23:53:36.862-0400: Total swap space: 1.99 GB
+2012-03-13 23:53:36.863-0400: Free swap space: 1.99 GB
+2012-03-13 23:53:36.875-0400: Byte order: LITTLE_ENDIAN
+2012-03-13 23:53:36.875-0400: VM Name: Java HotSpot(TM) Server VM
+2012-03-13 23:53:36.876-0400: VM Vendor: Sun Microsystems Inc.
+2012-03-13 23:53:36.876-0400: VM Version: 20.1-b02
+2012-03-13 23:53:36.891-0400: JIT compiler: HotSpot Tiered Compilers
+2012-03-13 23:53:36.898-0400: Class Path:
+2012-03-13 23:53:36.899-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-03-13 23:53:36.899-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-03-13 23:53:36.899-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-03-13 23:53:36.899-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-03-13 23:53:36.899-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-03-13 23:53:36.900-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-03-13 23:53:36.900-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-03-13 23:53:36.900-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-03-13 23:53:36.900-0400:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-03-13 23:53:36.900-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-03-13 23:53:36.901-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-03-13 23:53:36.901-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-03-13 23:53:36.901-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-03-13 23:53:36.901-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-03-13 23:53:36.901-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-03-13 23:53:36.901-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-03-13 23:53:36.902-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-03-13 23:53:36.902-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-03-13 23:53:36.902-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-03-13 23:53:36.902-0400:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-03-13 23:53:36.902-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-03-13 23:53:36.902-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-03-13 23:53:36.903-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-03-13 23:53:36.903-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-03-13 23:53:36.903-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-03-13 23:53:36.903-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-03-13 23:53:36.903-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-03-13 23:53:36.904-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-03-13 23:53:36.904-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-03-13 23:53:36.904-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-03-13 23:53:36.904-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-03-13 23:53:36.904-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-03-13 23:53:36.904-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-03-13 23:53:36.905-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-03-13 23:53:36.905-0400: Library Path:
+2012-03-13 23:53:36.906-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-03-13 23:53:36.906-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-13 23:53:36.906-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-03-13 23:53:36.907-0400:   /usr/java/packages/lib/i386
+2012-03-13 23:53:36.907-0400:   /lib
+2012-03-13 23:53:36.907-0400:   /usr/lib
+2012-03-13 23:53:36.930-0400: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-03-13 23:53:36.930-0400: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-03-13 23:53:36.933-0400: Memory Pool: Code Cache (Non-heap memory): committed=2.91 MB, used=2.84 MB, max=48.00 MB, threshold=0.00 B
+2012-03-13 23:53:36.934-0400: Memory Pool: PS Eden Space (Heap memory): committed=144.50 MB, used=4.05 MB, max=148.25 MB, threshold=?
+2012-03-13 23:53:36.935-0400: Memory Pool: PS Survivor Space (Heap memory): committed=9.19 MB, used=5.38 MB, max=9.19 MB, threshold=?
+2012-03-13 23:53:36.936-0400: Memory Pool: PS Old Gen (Heap memory): committed=38.19 MB, used=26.29 MB, max=333.38 MB, threshold=0.00 B
+2012-03-13 23:53:36.936-0400: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.88 MB, used=26.22 MB, max=64.00 MB, threshold=0.00 B
+2012-03-13 23:53:36.937-0400: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-03-13 23:53:36.938-0400: System properties:
+2012-03-13 23:53:36.938-0400:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-03-13 23:53:36.939-0400:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-13 23:53:36.939-0400:   path.separator = :
+2012-03-13 23:53:36.939-0400:   file.encoding.pkg = sun.io
+2012-03-13 23:53:36.939-0400:   sun.java.launcher = SUN_STANDARD
+2012-03-13 23:53:36.939-0400:   user.country = US
+2012-03-13 23:53:36.940-0400:   sun.os.patch.level = unknown
+2012-03-13 23:53:36.940-0400:   user.dir = /home/me/workspace/magic
+2012-03-13 23:53:36.940-0400:   jdk.home = 
+2012-03-13 23:53:36.940-0400:   sun.jnu.encoding = UTF-8
+2012-03-13 23:53:36.941-0400:   jruby.memory.max = 500m
+2012-03-13 23:53:36.941-0400:   sun.management.compiler = HotSpot Tiered Compilers
+2012-03-13 23:53:36.941-0400:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-03-13 23:53:36.941-0400:   user.home = /home/me
+2012-03-13 23:53:36.942-0400:   user.timezone = America/New_York
+2012-03-13 23:53:36.942-0400:   file.encoding = UTF-8
+2012-03-13 23:53:36.942-0400:   jruby.stack.max = 2048k
+2012-03-13 23:53:36.942-0400:   jruby.script = jruby
+2012-03-13 23:53:36.942-0400:   user.name = me
+2012-03-13 23:53:36.943-0400:   jruby.shell = /bin/sh
+2012-03-13 23:53:36.943-0400:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-03-13 23:53:36.943-0400:   sun.arch.data.model = 32
+2012-03-13 23:53:36.943-0400:   user.language = en
+2012-03-13 23:53:36.943-0400:   file.separator = /
+2012-03-13 23:53:36.944-0400:   sun.io.unicode.encoding = UnicodeLittle
+2012-03-13 23:53:36.944-0400:   sun.cpu.endian = little
+2012-03-13 23:53:36.944-0400:   sun.desktop = gnome
+2012-03-13 23:53:36.944-0400:   sun.cpu.isalist = 
+2012-03-13 23:53:36.945-0400: Neo4j Kernel properties:
+2012-03-13 23:53:36.945-0400:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-03-13 23:53:36.945-0400:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-13 23:53:36.945-0400:   online_backup_enabled=NO
+2012-03-13 23:53:36.945-0400:   ha.machine_id=2
+2012-03-13 23:53:36.946-0400:   enable_rules=YES
+2012-03-13 23:53:36.946-0400:   min_node_cache_size=0
+2012-03-13 23:53:36.946-0400:   neostore.relationshipstore.db.mapped_memory=50M
+2012-03-13 23:53:36.946-0400:   node_auto_indexing=false
+2012-03-13 23:53:36.946-0400:   neostore.nodestore.db.mapped_memory=25M
+2012-03-13 23:53:36.947-0400:   min_relationship_cache_size=0
+2012-03-13 23:53:36.947-0400:   ha.db=NO
+2012-03-13 23:53:36.947-0400:   max_relationship_cache_size=3500
+2012-03-13 23:53:36.947-0400:   use_adaptive_cache=YES
+2012-03-13 23:53:36.947-0400:   adaptive_cache_heap_ratio=0.77
+2012-03-13 23:53:36.947-0400:   identity_map=NO
+2012-03-13 23:53:36.948-0400:   adaptive_cache_manager_decrease_ratio=1.15
+2012-03-13 23:53:36.948-0400:   timestamps=YES
+2012-03-13 23:53:36.948-0400:   use_memory_mapped_buffers=true
+2012-03-13 23:53:36.948-0400:   rebuild_idgenerators_fast=true
+2012-03-13 23:53:36.948-0400:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-03-13 23:53:36.949-0400:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-03-13 23:53:36.949-0400:   max_node_cache_size=1500
+2012-03-13 23:53:36.949-0400:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-03-13 23:53:36.949-0400:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-03-13 23:53:36.949-0400:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-03-13 23:53:36.950-0400:   adaptive_cache_worker_sleep_time=3000
+2012-03-13 23:53:36.950-0400:   neostore.propertystore.db.index.mapped_memory=1M
+2012-03-13 23:53:36.950-0400:   create=true
+2012-03-13 23:53:36.950-0400:   adaptive_cache_manager_increase_ratio=1.1
+2012-03-13 23:53:36.950-0400:   enable_remote_shell=port=9332
+2012-03-13 23:53:36.950-0400:   neostore.propertystore.db.mapped_memory=90M
+2012-03-13 23:53:36.951-0400:   relationship_auto_indexing=false
+2012-03-13 23:53:36.951-0400:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-03-13 23:53:36.951-0400:   ha.server=localhost:6002
+2012-03-13 23:53:36.951-0400:   migration_thread=NO
+2012-03-13 23:53:36.951-0400: Storage files:
+2012-03-13 23:53:36.953-0400:   neostore.id: 9.00 B
+2012-03-13 23:53:36.953-0400:   messages.log: 351.34 kB
+2012-03-13 23:53:36.954-0400:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-03-13 23:53:36.954-0400:   neostore: 54.00 B
+2012-03-13 23:53:36.955-0400:   neostore.relationshipstore.db.id: 9.00 B
+2012-03-13 23:53:36.955-0400:   nioneo_logical.log.1: 16.00 B
+2012-03-13 23:53:36.955-0400:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-03-13 23:53:36.956-0400:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-03-13 23:53:36.956-0400:   lock: 0.00 B
+2012-03-13 23:53:36.957-0400:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-03-13 23:53:36.957-0400:   neostore.relationshipstore.db: 51.18 kB
+2012-03-13 23:53:36.957-0400:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-03-13 23:53:36.958-0400:   neostore.propertystore.db.strings: 128.00 B
+2012-03-13 23:53:36.958-0400:   neostore.propertystore.db.index: 1.02 kB
+2012-03-13 23:53:36.958-0400:   neostore.relationshiptypestore.db: 10.00 B
+2012-03-13 23:53:36.959-0400:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-03-13 23:53:36.959-0400:   nioneo_logical.log.active: 4.00 B
+2012-03-13 23:53:36.959-0400:   neostore.nodestore.db: 25.59 kB
+2012-03-13 23:53:36.960-0400:   neostore.propertystore.db.id: 9.00 B
+2012-03-13 23:53:36.960-0400:   neostore.propertystore.db.arrays: 128.00 B
+2012-03-13 23:53:36.961-0400:   neostore.propertystore.db.index.id: 9.00 B
+2012-03-13 23:53:36.961-0400:   neostore.propertystore.db.strings.id: 9.00 B
+2012-03-13 23:53:36.961-0400:   neostore.nodestore.db.id: 9.00 B
+2012-03-13 23:53:36.962-0400:   neostore.propertystore.db: 92.13 kB
+2012-03-13 23:53:36.962-0400:   tm_tx_log.1: 0.00 B
+2012-03-13 23:53:36.962-0400:   active_tx_log: 11.00 B
+2012-03-13 23:53:36.963-0400:   index:
+2012-03-13 23:53:36.963-0400:     lucene-store.db: 32.00 B
+2012-03-13 23:53:36.964-0400:     lucene.log.active: 4.00 B
+2012-03-13 23:53:36.964-0400:     lucene.log.1: 16.00 B
+2012-03-13 23:53:36.965-0400:   - Total: 52.00 B
+2012-03-13 23:53:36.965-0400: Id usage:
+2012-03-13 23:53:36.966-0400:   NodeStore: used=3 high=2
+2012-03-13 23:53:36.966-0400:   RelationshipStore: used=2 high=1
+2012-03-13 23:53:36.966-0400:   RelationshipTypeStore: used=2 high=1
+2012-03-13 23:53:36.967-0400:   PropertyStore: used=6 high=5
+2012-03-13 23:53:36.967-0400:   PropertyIndexStore: used=10 high=9
+2012-03-13 23:53:36.967-0400:   StringPropertyStore: used=1 high=0
+2012-03-13 23:53:36.968-0400:   ArrayPropertyStore: used=1 high=0
+2012-03-13 23:53:36.985-0400: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-03-13 23:53:36.985-0400: --- CONFIGURATION END ---
+2012-03-13 23:53:37.893-0400: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-03-13 23:53:37.911-0400: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-03-13 23:53:39.120-0400: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2012-03-14 01:12:28.595-0400: Closed log /home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-14 01:12:28.929-0400: NeoStore closed
+2012-03-14 01:12:28.939-0400: Closed log /home/me/workspace/magic/db/neo4j-development/index/lucene.log
+2012-03-14 01:12:28.940-0400: NeoStore closed
+2012-03-14 01:12:28.941-0400: TM shutting down
+2012-03-16 21:32:56.037-0400: Opened [/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log.1] clean empty log, version=0, lastTxId=5
+2012-03-16 21:32:56.493-0400: Opened [/home/me/workspace/magic/db/neo4j-development/index/lucene.log.1] clean empty log, version=0, lastTxId=1
+2012-03-16 21:32:56.564-0400: TM opening log: /home/me/workspace/magic/db/neo4j-development/tm_tx_log.1
+2012-03-16 21:32:56.732-0400: --- CONFIGURATION START ---
+2012-03-16 21:32:56.738-0400: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1329517285617, id:-4944876359757303063, store version: 13561656364791302]
+2012-03-16 21:32:56.739-0400: Physical mem: 2004MB, Heap size: 444MB
+2012-03-16 21:32:56.750-0400: Kernel version: Neo4j - Graph Database Kernel 1.6.M01
+2012-03-16 21:32:56.750-0400: Neo4j component versions:
+2012-03-16 21:32:56.751-0400:   Neo4j - Graph Database Kernel 1.6.M01
+2012-03-16 21:32:56.752-0400: Store versions:
+2012-03-16 21:32:56.752-0400:   NeoStore v0.A.0
+2012-03-16 21:32:56.752-0400:   NodeStore v0.A.0
+2012-03-16 21:32:56.752-0400:   RelationshipStore v0.A.0
+2012-03-16 21:32:56.753-0400:   RelationshipTypeStore v0.A.0
+2012-03-16 21:32:56.753-0400:   PropertyStore v0.A.0
+2012-03-16 21:32:56.753-0400:   PropertyIndexStore v0.A.0
+2012-03-16 21:32:56.753-0400:   StringPropertyStore v0.A.0
+2012-03-16 21:32:56.753-0400:   ArrayPropertyStore v0.A.0
+2012-03-16 21:32:56.755-0400: Process id: 3349@me-laptop
+2012-03-16 21:32:56.756-0400: Operating System: Linux; version: 3.0.0-16-generic; arch: i386; cpus: 4
+2012-03-16 21:32:56.757-0400: Max number of file descriptors: 4096
+2012-03-16 21:32:56.758-0400: Number of open file descriptors: 77
+2012-03-16 21:32:56.771-0400: Total Physical memory: 1.96 GB
+2012-03-16 21:32:56.772-0400: Free Physical memory: 706.08 MB
+2012-03-16 21:32:56.773-0400: Committed virtual memory: 739.07 MB
+2012-03-16 21:32:56.774-0400: Total swap space: 1.99 GB
+2012-03-16 21:32:56.775-0400: Free swap space: 1.99 GB
+2012-03-16 21:32:56.784-0400: Byte order: LITTLE_ENDIAN
+2012-03-16 21:32:56.784-0400: VM Name: Java HotSpot(TM) Server VM
+2012-03-16 21:32:56.784-0400: VM Vendor: Sun Microsystems Inc.
+2012-03-16 21:32:56.784-0400: VM Version: 20.1-b02
+2012-03-16 21:32:56.789-0400: JIT compiler: HotSpot Tiered Compilers
+2012-03-16 21:32:56.795-0400: Class Path:
+2012-03-16 21:32:56.796-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-matching-1.6.M01.jar
+2012-03-16 21:32:56.796-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-kernel-1.6.M01.jar
+2012-03-16 21:32:56.796-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2012-03-16 21:32:56.797-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/scala-library-2.9.0-1.jar
+2012-03-16 21:32:56.797-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-shell-1.6.M01.jar
+2012-03-16 21:32:56.797-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-jmx-1.6.M01.jar
+2012-03-16 21:32:56.797-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar
+2012-03-16 21:32:56.797-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-cypher-1.6.M01.jar
+2012-03-16 21:32:56.798-0400:    [bootstrap] /home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar
+2012-03-16 21:32:56.798-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/modules/jdk.boot.jar
+2012-03-16 21:32:56.798-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-graph-algo-1.6.M01.jar
+2012-03-16 21:32:56.798-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/server-api-1.6.M01.jar
+2012-03-16 21:32:56.799-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/parser.jar
+2012-03-16 21:32:56.799-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar
+2012-03-16 21:32:56.799-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar
+2012-03-16 21:32:56.799-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar
+2012-03-16 21:32:56.799-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/therubyrhino-1.73.1/lib/rhino/rhino-1.7R3.jar
+2012-03-16 21:32:56.800-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar
+2012-03-16 21:32:56.800-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcmail-jdk15-146.jar
+2012-03-16 21:32:56.800-0400:    [classpath + loader.2] file:/home/me/workspace/magic/
+2012-03-16 21:32:56.800-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar
+2012-03-16 21:32:56.800-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/lucene-core-3.1.0.jar
+2012-03-16 21:32:56.801-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar
+2012-03-16 21:32:56.801-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@global/gems/bouncy-castle-java-1.5.0146.1/lib/bcprov-jdk15-146.jar
+2012-03-16 21:32:56.801-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/jruby-openssl-0.7.6.1/lib/shared/jopenssl.jar
+2012-03-16 21:32:56.801-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/geronimo-jta_1.1_spec-1.1.1.jar
+2012-03-16 21:32:56.801-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar
+2012-03-16 21:32:56.802-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/classes
+2012-03-16 21:32:56.802-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-lucene-index-1.6.M01.jar
+2012-03-16 21:32:56.802-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/json-1.6.5-java/lib/json/ext/generator.jar
+2012-03-16 21:32:56.802-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/ha/neo4j-management-1.6.M01.jar
+2012-03-16 21:32:56.802-0400:    [bootstrap] /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/sunrsasign.jar
+2012-03-16 21:32:56.803-0400:    [loader.0] file:/home/me/.rvm/gems/jruby-1.6.5.1@rails3/gems/neo4j-1.3.1-java/lib/neo4j/jars/core/neo4j-udc-1.6.M01.jar
+2012-03-16 21:32:56.803-0400:    [loader.3] file:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar
+2012-03-16 21:32:56.803-0400: Library Path:
+2012-03-16 21:32:56.804-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/server
+2012-03-16 21:32:56.804-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-16 21:32:56.804-0400:   /usr/lib/jvm/java-6-sun-1.6.0.26/lib/i386
+2012-03-16 21:32:56.805-0400:   /usr/java/packages/lib/i386
+2012-03-16 21:32:56.805-0400:   /lib
+2012-03-16 21:32:56.805-0400:   /usr/lib
+2012-03-16 21:32:56.816-0400: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2012-03-16 21:32:56.817-0400: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2012-03-16 21:32:56.820-0400: Memory Pool: Code Cache (Non-heap memory): committed=2.84 MB, used=2.80 MB, max=48.00 MB, threshold=0.00 B
+2012-03-16 21:32:56.821-0400: Memory Pool: PS Eden Space (Heap memory): committed=144.56 MB, used=12.59 MB, max=148.25 MB, threshold=?
+2012-03-16 21:32:56.822-0400: Memory Pool: PS Survivor Space (Heap memory): committed=9.19 MB, used=5.44 MB, max=9.19 MB, threshold=?
+2012-03-16 21:32:56.823-0400: Memory Pool: PS Old Gen (Heap memory): committed=38.38 MB, used=26.27 MB, max=333.38 MB, threshold=0.00 B
+2012-03-16 21:32:56.824-0400: Memory Pool: PS Perm Gen (Non-heap memory): committed=40.88 MB, used=26.10 MB, max=64.00 MB, threshold=0.00 B
+2012-03-16 21:32:56.836-0400: VM Arguments: [-Djdk.home=, -Djruby.home=/home/me/.rvm/rubies/jruby-1.6.5.1, -Djruby.script=jruby, -Djruby.shell=/bin/sh, -Djffi.boot.library.path=/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux, -Xmx500m, -Xss2048k, -Djruby.memory.max=500m, -Djruby.stack.max=2048k, -Xbootclasspath/a:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/jruby.jar]
+2012-03-16 21:32:56.837-0400: System properties:
+2012-03-16 21:32:56.837-0400:   jruby.home = /home/me/.rvm/rubies/jruby-1.6.5.1
+2012-03-16 21:32:56.838-0400:   sun.boot.library.path = /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386
+2012-03-16 21:32:56.838-0400:   path.separator = :
+2012-03-16 21:32:56.838-0400:   file.encoding.pkg = sun.io
+2012-03-16 21:32:56.838-0400:   sun.java.launcher = SUN_STANDARD
+2012-03-16 21:32:56.838-0400:   user.country = US
+2012-03-16 21:32:56.838-0400:   sun.os.patch.level = unknown
+2012-03-16 21:32:56.838-0400:   user.dir = /home/me/workspace/magic
+2012-03-16 21:32:56.839-0400:   jdk.home = 
+2012-03-16 21:32:56.839-0400:   sun.jnu.encoding = UTF-8
+2012-03-16 21:32:56.839-0400:   jruby.memory.max = 500m
+2012-03-16 21:32:56.839-0400:   sun.management.compiler = HotSpot Tiered Compilers
+2012-03-16 21:32:56.839-0400:   jffi.boot.library.path = /home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/i386-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/ppc-Linux:/home/me/.rvm/rubies/jruby-1.6.5.1/lib/native/x86_64-Linux
+2012-03-16 21:32:56.840-0400:   user.home = /home/me
+2012-03-16 21:32:56.840-0400:   user.timezone = America/New_York
+2012-03-16 21:32:56.840-0400:   file.encoding = UTF-8
+2012-03-16 21:32:56.840-0400:   jruby.stack.max = 2048k
+2012-03-16 21:32:56.840-0400:   jruby.script = jruby
+2012-03-16 21:32:56.840-0400:   user.name = me
+2012-03-16 21:32:56.840-0400:   jruby.shell = /bin/sh
+2012-03-16 21:32:56.841-0400:   sun.java.command = org/jruby/Main /home/me/.rvm/gems/jruby-1.6.5.1@rails3/bin/rails s
+2012-03-16 21:32:56.841-0400:   sun.arch.data.model = 32
+2012-03-16 21:32:56.841-0400:   user.language = en
+2012-03-16 21:32:56.841-0400:   file.separator = /
+2012-03-16 21:32:56.841-0400:   sun.io.unicode.encoding = UnicodeLittle
+2012-03-16 21:32:56.841-0400:   sun.cpu.endian = little
+2012-03-16 21:32:56.841-0400:   sun.desktop = gnome
+2012-03-16 21:32:56.842-0400:   sun.cpu.isalist = 
+2012-03-16 21:32:56.842-0400: Neo4j Kernel properties:
+2012-03-16 21:32:56.842-0400:   store_dir=/home/me/workspace/magic/db/neo4j-development
+2012-03-16 21:32:56.842-0400:   logical_log=/home/me/workspace/magic/db/neo4j-development/nioneo_logical.log
+2012-03-16 21:32:56.842-0400:   online_backup_enabled=NO
+2012-03-16 21:32:56.842-0400:   ha.machine_id=2
+2012-03-16 21:32:56.843-0400:   enable_rules=YES
+2012-03-16 21:32:56.843-0400:   min_node_cache_size=0
+2012-03-16 21:32:56.843-0400:   neostore.relationshipstore.db.mapped_memory=50M
+2012-03-16 21:32:56.843-0400:   node_auto_indexing=false
+2012-03-16 21:32:56.843-0400:   neostore.nodestore.db.mapped_memory=25M
+2012-03-16 21:32:56.843-0400:   min_relationship_cache_size=0
+2012-03-16 21:32:56.843-0400:   ha.db=NO
+2012-03-16 21:32:56.843-0400:   max_relationship_cache_size=3500
+2012-03-16 21:32:56.844-0400:   use_adaptive_cache=YES
+2012-03-16 21:32:56.844-0400:   adaptive_cache_heap_ratio=0.77
+2012-03-16 21:32:56.844-0400:   identity_map=NO
+2012-03-16 21:32:56.844-0400:   adaptive_cache_manager_decrease_ratio=1.15
+2012-03-16 21:32:56.844-0400:   timestamps=YES
+2012-03-16 21:32:56.844-0400:   use_memory_mapped_buffers=true
+2012-03-16 21:32:56.845-0400:   rebuild_idgenerators_fast=true
+2012-03-16 21:32:56.845-0400:   ha.zoo_keeper_servers=localhost:2181,localhost:2182,localhost:2183
+2012-03-16 21:32:56.845-0400:   neostore.propertystore.db.index.keys.mapped_memory=1M
+2012-03-16 21:32:56.845-0400:   max_node_cache_size=1500
+2012-03-16 21:32:56.845-0400:   neostore.propertystore.db.strings.mapped_memory=130M
+2012-03-16 21:32:56.845-0400:   neostore.propertystore.db.arrays.mapped_memory=130M
+2012-03-16 21:32:56.845-0400:   neo_store=/home/me/workspace/magic/db/neo4j-development/neostore
+2012-03-16 21:32:56.845-0400:   adaptive_cache_worker_sleep_time=3000
+2012-03-16 21:32:56.846-0400:   neostore.propertystore.db.index.mapped_memory=1M
+2012-03-16 21:32:56.846-0400:   create=true
+2012-03-16 21:32:56.846-0400:   adaptive_cache_manager_increase_ratio=1.1
+2012-03-16 21:32:56.846-0400:   enable_remote_shell=port=9332
+2012-03-16 21:32:56.846-0400:   neostore.propertystore.db.mapped_memory=90M
+2012-03-16 21:32:56.846-0400:   relationship_auto_indexing=false
+2012-03-16 21:32:56.846-0400:   storage_path=/home/me/workspace/magic/db/neo4j-development
+2012-03-16 21:32:56.847-0400:   ha.server=localhost:6002
+2012-03-16 21:32:56.847-0400:   migration_thread=NO
+2012-03-16 21:32:56.847-0400: Storage files:
+2012-03-16 21:32:56.848-0400:   neostore.id: 9.00 B
+2012-03-16 21:32:56.848-0400:   messages.log: 367.43 kB
+2012-03-16 21:32:56.849-0400:   neostore.relationshiptypestore.db.names.id: 9.00 B
+2012-03-16 21:32:56.849-0400:   neostore: 54.00 B
+2012-03-16 21:32:56.849-0400:   neostore.relationshipstore.db.id: 9.00 B
+2012-03-16 21:32:56.850-0400:   nioneo_logical.log.1: 16.00 B
+2012-03-16 21:32:56.850-0400:   neostore.propertystore.db.arrays.id: 9.00 B
+2012-03-16 21:32:56.850-0400:   neostore.propertystore.db.index.keys.id: 9.00 B
+2012-03-16 21:32:56.850-0400:   lock: 0.00 B
+2012-03-16 21:32:56.851-0400:   neostore.relationshiptypestore.db.id: 9.00 B
+2012-03-16 21:32:56.851-0400:   neostore.relationshipstore.db: 66.00 B
+2012-03-16 21:32:56.851-0400:   neostore.relationshiptypestore.db.names: 114.00 B
+2012-03-16 21:32:56.851-0400:   neostore.propertystore.db.strings: 128.00 B
+2012-03-16 21:32:56.852-0400:   neostore.propertystore.db.index: 1.02 kB
+2012-03-16 21:32:56.852-0400:   neostore.relationshiptypestore.db: 10.00 B
+2012-03-16 21:32:56.852-0400:   neostore.propertystore.db.index.keys: 1.00 kB
+2012-03-16 21:32:56.852-0400:   nioneo_logical.log.active: 4.00 B
+2012-03-16 21:32:56.853-0400:   neostore.nodestore.db: 27.00 B
+2012-03-16 21:32:56.853-0400:   neostore.propertystore.db.id: 9.00 B
+2012-03-16 21:32:56.853-0400:   neostore.propertystore.db.arrays: 128.00 B
+2012-03-16 21:32:56.854-0400:   neostore.propertystore.db.index.id: 9.00 B
+2012-03-16 21:32:56.854-0400:   neostore.propertystore.db.strings.id: 9.00 B
+2012-03-16 21:32:56.854-0400:   neostore.nodestore.db.id: 9.00 B
+2012-03-16 21:32:56.854-0400:   neostore.propertystore.db: 246.00 B
+2012-03-16 21:32:56.855-0400:   tm_tx_log.1: 0.00 B
+2012-03-16 21:32:56.855-0400:   active_tx_log: 11.00 B
+2012-03-16 21:32:56.855-0400:   index:
+2012-03-16 21:32:56.856-0400:     lucene-store.db: 32.00 B
+2012-03-16 21:32:56.856-0400:     lucene.log.active: 4.00 B
+2012-03-16 21:32:56.856-0400:     lucene.log.1: 16.00 B
+2012-03-16 21:32:56.856-0400:   - Total: 52.00 B
+2012-03-16 21:32:56.857-0400: Id usage:
+2012-03-16 21:32:56.857-0400:   NodeStore: used=3 high=2
+2012-03-16 21:32:56.857-0400:   RelationshipStore: used=2 high=1
+2012-03-16 21:32:56.858-0400:   RelationshipTypeStore: used=2 high=1
+2012-03-16 21:32:56.858-0400:   PropertyStore: used=6 high=5
+2012-03-16 21:32:56.858-0400:   PropertyIndexStore: used=10 high=9
+2012-03-16 21:32:56.858-0400:   StringPropertyStore: used=1 high=0
+2012-03-16 21:32:56.858-0400:   ArrayPropertyStore: used=1 high=0
+2012-03-16 21:32:56.874-0400: Schedulers:   none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  none
+  noop deadline [cfq] 
+
+2012-03-16 21:32:56.875-0400: --- CONFIGURATION END ---
+2012-03-16 21:32:57.424-0400: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2012-03-16 21:32:57.440-0400: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2012-03-16 21:32:58.298-0400: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok

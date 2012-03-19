@@ -1,9 +1,21 @@
 // Place all the styles related to the cards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$background_color: #563;
+$background_color: white;
 $text_color: black;
 
-body { background-color: $background_color; color: $text_color }
-td{ text-align: left }
-th{ text-align: left }
+body                { background-color: $background_color; color: $text_color; }
+th                  { text-align: left }
+td                  { text-align: left }
+div.card            { border: 5px solid; margin: 10px; border-radius: 25px; width: 500px; height: 600px; box-shadow: inset 0 0 3em black; }
+div.title           { border: 2px solid; margin: 10px; border-radius: 5px }
+div.att_title       { border: 2px solid; margin: 10px; border-radius: 5px }
+div.pow_tough       { position: relative; float: right; border: 2px solid; margin: 10px; border-radius: 5px }
+.name               { position: relative; left: 5px }
+.mana               { position: relative; left: 340px }
+.card_type          { position: relative; left: 5px }
+.power_toughness    { position: relative; }
+
+
+
+

@@ -1,39 +1,42 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Name:</b>
-  <%= @card.name %>
-</p>
+<div class="card">
 
-<p>
-  <b>Mana:</b>
-  <%= @card.mana %>
-</p>
+  <div class="title">
+    <span class="name">
+      <%= @card.name %>
+    </span>
 
-<p>
-  <b>Card type:</b>
-  <%= @card.card_type %>
-</p>
+    <span class="mana">
+      <%= @card.mana %>
+    </span>
+  </div>
 
-<p>
-  <b>Color:</b>
-  <%= @card.color %>
-</p>
+  <img src="http://www.mtgvault.com/images/cards/medium/M11/Unholy_Strength.jpg" />
+  <div class="att_title">
+    <span class="card_type">
+      <%= @card.card_type %>
+    </span>
+  </div>
 
-<p>
-  <b>Power:</b>
-  <%= @card.power %>
-</p>
+  <div class="card_body">
+    <p>
+      <b>Body:</b>
+      <%= @card.body %>
+    </p>
+  </div>
 
-<p>
-  <b>Health:</b>
-  <%= @card.health %>
-</p>
+  <div class="power_toughness">
+    <span class="pow_tough">
+      <p>
+        <%= @card.power %>
+        &#47;
+        <%= @card.health %>
+      </p>
+    </span>
+  </div>
 
-<p>
-  <b>Body:</b>
-  <%= @card.body %>
-</p>
+</div>
 
 
 <%= link_to 'Edit', edit_card_path(@card) %> |

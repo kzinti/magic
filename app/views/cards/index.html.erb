@@ -2,6 +2,7 @@
 
 <table>
   <tr>
+    <th>Art</th>
     <th>Name</th>
     <th>Mana</th>
     <th>Card type</th>
@@ -16,6 +17,7 @@
 
 <% @cards.each do |card| %>
   <tr>
+    <td><img src="http://www.mtgvault.com/images/cards/medium/M11/Unholy_Strength.jpg"></td>
     <td><%= link_to card.name, card %></td>
     <td><%= card.mana %></td>
     <td><%= card.card_type %></td>

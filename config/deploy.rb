@@ -1,16 +1,16 @@
 $:.unshift(File.expand_path('./lib', ENV['rvm_path']))
 require "rvm/capistrano"
-set :rvm_ruby_string, 'jruby-1.6.6@rails3'
+set :rvm_ruby_string, "jruby-1.6.6@rails3"
 
 set :ssh_options, {:forward_agent => true}
 set :use_sudo, false
-set :application, 'magic'
-set :domain, '66.172.10.186'
-set :repository,  'git@github.com:kzinti/magic.git'
-set :scm, 'git'
-set :deploy_to,   '/www/magic'
-set :user, 'deployer'
-set :branch, 'master'
+set :application, "magic"
+set :domain, "66.172.10.186"
+set :repository,  "git@github.com:kzinti/magic.git"
+set :scm, "git"
+set :deploy_to,   "/www/magic"
+set :user, "deployer"
+set :branch, "master"
 set :deploy_via, :remote_cache
 
 role :web, domain  # Your HTTP server, nginx/etc
