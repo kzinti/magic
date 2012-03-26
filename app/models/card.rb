@@ -6,6 +6,6 @@ class Card < Neo4j::Rails::Model
   property :power, :type => String
   property :health, :type => String
   property :body, :type => String
-
+  property :edition, :type => String
 
 end

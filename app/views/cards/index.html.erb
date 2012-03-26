@@ -10,21 +10,22 @@
     <th>Power</th>
     <th>Health</th>
     <th>Body</th>
-    <th></th>
+    <th>Edition</th>
     <th></th>
     <th></th>
   </tr>
 
 <% @cards.each do |card| %>
   <tr>
-    <td><img src="http://www.mtgvault.com/images/cards/medium/M11/Unholy_Strength.jpg"></td>
+    <td><%= link_to image_tag (card.edition + "/" + card_file_name(card.name)), card %></td>
     <td><%= link_to card.name, card %></td>
     <td><%= card.mana %></td>
     <td><%= card.card_type %></td>
     <td><%= card.color %></td>
-    <td><%= card.power %></td>
+    <td style="text-align: right"><%= card.power %></td>
     <td><%= card.health %></td>
     <td><%= card.body %></td>
+    <td><%= card.edition %></td>
     <!--<td><%= link_to 'Show', card %></td>-->
     <td><%= link_to 'Edit', edit_card_path(card) %></td>
     <td><%= link_to 'Destroy', card, :confirm => 'Are you sure?', :method => :delete %></td>

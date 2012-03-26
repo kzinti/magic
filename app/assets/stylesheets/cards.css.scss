@@ -1,21 +1,29 @@
 // Place all the styles related to the cards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$background_color: white;
-$text_color: black;
 
-body                { background-color: $background_color; color: $text_color; }
+body                { background-color: white; color: black; }
 th                  { text-align: left }
 td                  { text-align: left }
-div.card            { border: 5px solid; margin: 10px; border-radius: 25px; width: 500px; height: 600px; box-shadow: inset 0 0 3em black; }
-div.title           { border: 2px solid; margin: 10px; border-radius: 5px }
-div.att_title       { border: 2px solid; margin: 10px; border-radius: 5px }
-div.pow_tough       { position: relative; float: right; border: 2px solid; margin: 10px; border-radius: 5px }
+div.title           { border: 2px solid; margin-top: 5px;
+                      margin-left: 5px; margin-right: 5px;
+                      border-radius: 5px; background-color: tan }
+div.att_title       { border: 2px solid; margin-left: 5px;
+                      margin-right: 5px; border-radius: 5px;
+                      background-color: tan }
+div.card_body       { border: 2px solid; margin-left: 5px;
+                      margin-right: 5px; border-radius: 2px;
+                       height: 138px; background-color: white }
+div.pow_tough       { position: relative; margin-left: 5px;
+                      margin-right: 5px; border: 2px solid;
+                      border-radius: 2px; left: 200px; bottom: 8px;
+                      background-color: tan; width: 35px; height: 15px;
+                      text-align: center }
+div.card_art        { text-align: center; margin-left: 5px;
+                      margin-right: 5px }
 .name               { position: relative; left: 5px }
-.mana               { position: relative; left: 340px }
+.mana               { position: relative; left: 100px }
 .card_type          { position: relative; left: 5px }
-.power_toughness    { position: relative; }
-
-
-
-
+.edition            { position: absolute; left: 223px }
+.power_toughness    { position: relative; bottom: 2px;
+                      text-align: center; }

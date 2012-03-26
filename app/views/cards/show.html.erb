@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<div class="card">
+<div style="border: 5px solid; margin: 5px; border-radius: 2px; width: 250px; height: 375px; box-shadow: inset 0 0 8em <%= @card.color %>">
 
   <div class="title">
     <span class="name">
@@ -12,27 +12,27 @@
     </span>
   </div>
 
-  <img src="http://www.mtgvault.com/images/cards/medium/M11/Unholy_Strength.jpg" />
+  <div class="card_art">
+  <%= image_tag (@card.edition + "/" + card_file_name(@card.name)) %>
+  </div>
+
   <div class="att_title">
     <span class="card_type">
       <%= @card.card_type %>
     </span>
+
+    <span class="edition">
+      <%= @card.edition %>
+    </span>
   </div>
 
   <div class="card_body">
-    <p>
-      <b>Body:</b>
       <%= @card.body %>
-    </p>
   </div>
 
-  <div class="power_toughness">
-    <span class="pow_tough">
-      <p>
-        <%= @card.power %>
-        &#47;
-        <%= @card.health %>
-      </p>
+  <div class="pow_tough">
+    <span class="power_toughness">
+        <%= @card.power %> &#47; <%= @card.health %>
     </span>
   </div>
 
