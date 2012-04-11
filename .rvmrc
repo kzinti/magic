@@ -1,1 +1,1 @@
-rvm use jruby-1.6.5.1@rails3
+rvm use jruby-1.6.6@rails3
